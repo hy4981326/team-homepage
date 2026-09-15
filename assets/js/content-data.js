@@ -393,10 +393,10 @@ Patent:
       'qingli-zhang': {
         category: 'masters',
         name: '张清栎',
-        enName: 'Qingli Zhang',
+        enName: 'Qingyue Zhang',
         year: '2025',
-        advisor: '胡杨',
-        advisorEn: 'Yang Hu',
+        advisor: '李洋',
+        advisorEn: 'Yang Li',
         major: '硕士研究生',
         majorEn: 'Master’s Student',
         bio: '',

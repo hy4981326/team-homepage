@@ -2,6 +2,12 @@
   document.documentElement.classList.add('js-ready');
   const isEnglish = new URLSearchParams(window.location.search).get('lang') === 'en';
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const placeholderIcon = `
+    <svg viewBox="0 0 64 64" aria-hidden="true">
+      <circle cx="32" cy="22" r="13"></circle>
+      <path d="M9 58c1.8-14 10.2-22 23-22s21.2 8 23 22H9z"></path>
+    </svg>
+  `;
 
   function configureLanguage() {
     const currentUrl = new URL(window.location.href);
@@ -1379,12 +1385,6 @@
     if (!doctoralGroup || !mastersGroup) return;
 
     const academicYears = ['2024', '2025', '2026'];
-    const placeholderIcon = `
-      <svg viewBox="0 0 64 64" aria-hidden="true">
-        <circle cx="32" cy="22" r="13"></circle>
-        <path d="M9 58c1.8-14 10.2-22 23-22s21.2 8 23 22H9z"></path>
-      </svg>
-    `;
     const existingMemberIds = new Set(
       Array.from(feature.querySelectorAll('.student-card')).map((card) => {
         const profileUrl = new URL(card.getAttribute('href'), window.location.href);
@@ -2504,7 +2504,7 @@
             <div class="culture-gallery-stage" data-culture-stage>
               ${culturePhotos.map((photo, index) => `
                 <figure class="culture-gallery-card${index === 0 ? ' is-current' : index === 1 ? ' is-next' : index === culturePhotos.length - 1 ? ' is-previous' : ' is-hidden'}" data-culture-photo="${index}" role="button" tabindex="${index === 1 || index === culturePhotos.length - 1 ? '0' : '-1'}" aria-label="${isEnglish ? `View photo ${index + 1}` : `查看第 ${index + 1} 张图片`}">
-                  <img src="${photo.src}" alt="${photo.alt}">
+                  <img src="${photo.src}" alt="${photo.alt}" loading="lazy" decoding="async">
                 </figure>
               `).join('')}
             </div>
