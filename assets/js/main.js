@@ -131,19 +131,13 @@
         link: 'View full direction'
       },
       {
-        title: '',
-        description: 'Studying risk identification, health monitoring, mission support, and safety assessment methods for low-altitude aircraft, unmanned systems, and emerging transportation platforms.',
-        link: 'View related projects'
+        title: ''
       },
       {
-        title: '',
-        description: 'Exploring multi-agent collaboration, knowledge-driven reasoning, and autonomous task planning for aviation maintenance, intelligent manufacturing, energy, and transportation scenarios.',
-        link: 'View related projects'
+        title: ''
       },
       {
-        title: '',
-        description: 'Advancing reliability, maintainability, supportability, and PHM technologies through the Sino-Italian joint laboratory and industry partnerships for major engineering systems.',
-        link: 'View research collaboration'
+        title: ''
       }
     ];
     document.querySelectorAll('.home-direction-card').forEach((item, index) => {
@@ -464,7 +458,7 @@
 
     setHTML('#achievements .section-shell', `
       <nav class="education-subnav achievement-subnav" aria-label="Research outputs page navigation">
-        <button class="is-active" type="button" data-achievement-target="achievement-journals">Journal Articles</button>
+        <button class="is-active" type="button" data-achievement-target="achievement-journals">Journal Papers</button>
         <button type="button" data-achievement-target="achievement-conferences">Conferences &amp; Other</button>
         <button type="button" data-achievement-target="achievement-books">Books</button>
         <button type="button" data-achievement-target="achievement-patents">Patents &amp; Software</button>
@@ -906,7 +900,7 @@
             'Digital-Twin Modeling and Intelligent Maintenance Decision Optimization',
             'Complex-System Resilience and Belief Reliability Analysis'
           ],
-          journals: 'Journal Articles',
+          journals: 'Journal Papers',
           conferences: 'Conferences & Other',
           books: 'Books',
           patents: 'Patents & Software',
@@ -1147,45 +1141,75 @@
     projectsPanel.innerHTML = projectsHtml;
     while (achievementsSource.firstChild) outputsPanel.append(achievementsSource.firstChild);
     outputsPanel.querySelector('.achievement-subnav')?.remove();
+    const outputYearRanges = ['2026', '2025', '2024', '2023-2018', '2017-2013'];
     outputsPanel.insertAdjacentHTML('afterbegin', `
-      <nav class="education-subnav achievement-subnav" data-journal-year-nav aria-label="${isEnglish ? 'Journal year navigation' : '期刊论文年份导航'}">
-        ${['2026', '2025', '2024', '2023-2018', '2017-2013'].map((range, index) => `
+      <nav class="education-subnav achievement-subnav" data-journal-year-nav data-output-year-nav aria-label="${isEnglish ? 'Journal year navigation' : '期刊论文年份导航'}">
+        ${outputYearRanges.map((range, index) => `
           <button class="${index === 0 ? 'is-active' : ''}" type="button" data-journal-year-target="achievement-journals-${range}">${range}</button>
+        `).join('')}
+      </nav>
+      <nav class="education-subnav achievement-subnav" data-conference-year-nav data-output-year-nav aria-label="${isEnglish ? 'Conference year navigation' : '会议及其他年份导航'}" hidden>
+        ${outputYearRanges.map((range, index) => `
+          <button class="${index === 0 ? 'is-active' : ''}" type="button" data-conference-year-target="achievement-conferences-${range}">${range}</button>
         `).join('')}
       </nav>
     `);
     const journalYearNav = outputsPanel.querySelector('[data-journal-year-nav]');
+    const conferenceYearNav = outputsPanel.querySelector('[data-conference-year-nav]');
     let currentJournalYearRange = '2026';
-    const showJournalYearRange = (range = '2026') => {
-      currentJournalYearRange = range;
-      journalYearNav?.querySelectorAll('[data-journal-year-target]').forEach((button) => {
-        const isActive = button.dataset.journalYearTarget === `achievement-journals-${range}`;
+    let currentConferenceYearRange = '2026';
+    const showPublicationYearRange = (categoryName, range = '2026') => {
+      const nav = categoryName === 'conferences' ? conferenceYearNav : journalYearNav;
+      const targetAttribute = categoryName === 'conferences'
+        ? 'conferenceYearTarget'
+        : 'journalYearTarget';
+      nav?.querySelectorAll('button').forEach((button) => {
+        const isActive = button.dataset[targetAttribute] === `achievement-${categoryName}-${range}`;
         button.classList.toggle('is-active', isActive);
         button.setAttribute('aria-pressed', String(isActive));
       });
-      const groups = outputsPanel.querySelectorAll('.publication-year-group');
+      const section = outputsPanel.querySelector(`#achievement-${categoryName}`);
+      const groups = section?.querySelectorAll('.publication-year-group') || [];
       if (!groups.length) return false;
       groups.forEach((group) => {
-        group.hidden = group.id !== `achievement-journals-${range}`;
+        group.hidden = group.id !== `achievement-${categoryName}-${range}`;
       });
-      const target = document.getElementById(`achievement-journals-${range}`);
+      const target = document.getElementById(`achievement-${categoryName}-${range}`);
       if (target && !target.querySelector('.publication-list, .publication-status')) {
         const empty = document.createElement('p');
         empty.className = 'publication-status';
-        empty.textContent = isEnglish ? 'No journal articles for this year.' : '该年份暂无期刊论文。';
+        empty.textContent = categoryName === 'conferences'
+          ? (isEnglish ? 'No conference publications for this year.' : '该年份暂无会议及其他成果。')
+          : (isEnglish ? 'No journal papers for this year.' : '该年份暂无期刊论文。');
         target.append(empty);
       }
       return true;
+    };
+    const showJournalYearRange = (range = '2026') => {
+      currentJournalYearRange = range;
+      return showPublicationYearRange('journals', range);
+    };
+    const showConferenceYearRange = (range = '2026') => {
+      currentConferenceYearRange = range;
+      return showPublicationYearRange('conferences', range);
     };
     journalYearNav?.querySelectorAll('[data-journal-year-target]').forEach((button) => {
       button.addEventListener('click', () => {
         showJournalYearRange(button.dataset.journalYearTarget.replace('achievement-journals-', ''));
       });
     });
+    conferenceYearNav?.querySelectorAll('[data-conference-year-target]').forEach((button) => {
+      button.addEventListener('click', () => {
+        showConferenceYearRange(button.dataset.conferenceYearTarget.replace('achievement-conferences-', ''));
+      });
+    });
     if (!showJournalYearRange(currentJournalYearRange)) {
       document.addEventListener(
         'publications:rendered',
-        () => showJournalYearRange(currentJournalYearRange),
+        () => {
+          showJournalYearRange(currentJournalYearRange);
+          showConferenceYearRange(currentConferenceYearRange);
+        },
         { once: true }
       );
     }
@@ -1243,6 +1267,9 @@
         section.hidden = section.id !== `achievement-${currentOutputCategory}`;
       });
       if (journalYearNav) journalYearNav.hidden = currentOutputCategory !== 'journals';
+      if (conferenceYearNav) conferenceYearNav.hidden = currentOutputCategory !== 'conferences';
+      if (currentOutputCategory === 'journals') showJournalYearRange(currentJournalYearRange);
+      if (currentOutputCategory === 'conferences') showConferenceYearRange(currentConferenceYearRange);
       app.querySelectorAll('[data-research-output-category]').forEach((button) => {
         button.classList.toggle(
           'is-active',

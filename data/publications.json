@@ -1,7 +1,1525 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-28",
+  "updatedAt": "2026-09-16",
   "entries": [
+    {
+      "id": "jiang-journal-2026-clari-constrained-reflective-llm-inference-for-few-shot-so",
+      "category": "journals",
+      "year": 2026,
+      "title": {
+        "zh": "CLARI: Constrained reflective LLM inference for few-shot soft sensing under operating-condition drift",
+        "en": "CLARI: Constrained reflective LLM inference for few-shot soft sensing under operating-condition drift"
+      },
+      "authors": {
+        "zh": "Z Yang, J Chen, Z Bi, X Jiang, L Yao, J Lou, Z Song",
+        "en": "Z Yang, J Chen, Z Bi, X Jiang, L Yao, J Lou, Z Song"
+      },
+      "venue": {
+        "zh": "Control Engineering Practice",
+        "en": "Control Engineering Practice"
+      },
+      "details": {
+        "zh": "177, 107187 (2026).",
+        "en": "177, 107187 (2026)."
+      },
+      "url": "https://www.sciencedirect.com/science/article/pii/S0967066126004302"
+    },
+    {
+      "id": "jiang-conference-2026-candidate-fate-accounting-for-transparent-sensor-diagnosti",
+      "category": "conferences",
+      "year": 2026,
+      "title": {
+        "zh": "Candidate-Fate Accounting for Transparent Sensor Diagnostic Pipeline Search",
+        "en": "Candidate-Fate Accounting for Transparent Sensor Diagnostic Pipeline Search"
+      },
+      "authors": {
+        "zh": "H Xie, Y Chen, Y Liu, X Jiang",
+        "en": "H Xie, Y Chen, Y Liu, X Jiang"
+      },
+      "venue": {
+        "zh": "arXiv preprint arXiv:2608.18665",
+        "en": "arXiv preprint arXiv:2608.18665"
+      },
+      "details": {
+        "zh": "(2026).",
+        "en": "(2026)."
+      },
+      "url": "https://arxiv.org/abs/2608.18665"
+    },
+    {
+      "id": "jiang-journal-2026-empowering-industrial-federated-learning-blockchain-based",
+      "category": "journals",
+      "year": 2026,
+      "title": {
+        "zh": "Empowering Industrial Federated Learning: Blockchain-Based Model Validation and Incentive Mechanism",
+        "en": "Empowering Industrial Federated Learning: Blockchain-Based Model Validation and Incentive Mechanism"
+      },
+      "authors": {
+        "zh": "X Jiang, Y Cheng, J Yang, Z Song, Z Yang, L Yao",
+        "en": "X Jiang, Y Cheng, J Yang, Z Song, Z Yang, L Yao"
+      },
+      "venue": {
+        "zh": "IEEE Internet of Things Journal",
+        "en": "IEEE Internet of Things Journal"
+      },
+      "details": {
+        "zh": "(2026).",
+        "en": "(2026)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11602079/"
+    },
+    {
+      "id": "jiang-journal-2026-agentic-ai-for-safety-aware-process-monitoring-and-fault-d",
+      "category": "journals",
+      "year": 2026,
+      "title": {
+        "zh": "Agentic AI for Safety-Aware Process Monitoring and Fault Diagnosis: A Review",
+        "en": "Agentic AI for Safety-Aware Process Monitoring and Fault Diagnosis: A Review"
+      },
+      "authors": {
+        "zh": "X Jiang, H Xie, J Wang, Z Yang, Y Zhou, L Yao, Z Zhu",
+        "en": "X Jiang, H Xie, J Wang, Z Yang, Y Zhou, L Yao, Z Zhu"
+      },
+      "venue": {
+        "zh": "Processes",
+        "en": "Processes"
+      },
+      "details": {
+        "zh": "14(13), 2112 (2026).",
+        "en": "14(13), 2112 (2026)."
+      },
+      "url": "https://www.mdpi.com/2227-9717/14/13/2112"
+    },
+    {
+      "id": "jiang-journal-2026-deep-variable-wise-probabilistic-principal-component-analy",
+      "category": "journals",
+      "year": 2026,
+      "title": {
+        "zh": "Deep variable-wise probabilistic principal component analysis for industrial process monitoring in the presence of missing data",
+        "en": "Deep variable-wise probabilistic principal component analysis for industrial process monitoring in the presence of missing data"
+      },
+      "authors": {
+        "zh": "X Kong, J Qian, B He, S Chai, Z Song, X Jiang",
+        "en": "X Kong, J Qian, B He, S Chai, Z Song, X Jiang"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Industrial Informatics",
+        "en": "IEEE Transactions on Industrial Informatics"
+      },
+      "details": {
+        "zh": "(2026).",
+        "en": "(2026)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11567994/"
+    },
+    {
+      "id": "jiang-conference-2026-a-novel-kolmogorov-arnold-graph-attention-network-for-soft",
+      "category": "conferences",
+      "year": 2026,
+      "title": {
+        "zh": "A Novel Kolmogorov-Arnold Graph Attention Network for Soft Sensing of Chemical Process Quality Vairables",
+        "en": "A Novel Kolmogorov-Arnold Graph Attention Network for Soft Sensing of Chemical Process Quality Vairables"
+      },
+      "authors": {
+        "zh": "S Tang, Z Zhu, X Jiang, B Shen, Z Yang, L Yao",
+        "en": "S Tang, Z Zhu, X Jiang, B Shen, Z Yang, L Yao"
+      },
+      "venue": {
+        "zh": "2026 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC)",
+        "en": "2026 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC)"
+      },
+      "details": {
+        "zh": "25-30 (2026).",
+        "en": "25-30 (2026)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11616109/"
+    },
+    {
+      "id": "jiang-conference-2026-semi-supervised-fault-diagnosis-via-graph-contrastive-lear",
+      "category": "conferences",
+      "year": 2026,
+      "title": {
+        "zh": "Semi-Supervised Fault Diagnosis via Graph Contrastive Learning with CWT Time-Frequency Features",
+        "en": "Semi-Supervised Fault Diagnosis via Graph Contrastive Learning with CWT Time-Frequency Features"
+      },
+      "authors": {
+        "zh": "X Wang, L Mao, Z Yang, L Yao, J Wang, X Jiang",
+        "en": "X Wang, L Mao, Z Yang, L Yao, J Wang, X Jiang"
+      },
+      "venue": {
+        "zh": "2026 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC)",
+        "en": "2026 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC)"
+      },
+      "details": {
+        "zh": "66-71 (2026).",
+        "en": "66-71 (2026)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11615653/"
+    },
+    {
+      "id": "jiang-conference-2026-an-llm-driven-knowledge-informed-graph-convolutional-netwo",
+      "category": "conferences",
+      "year": 2026,
+      "title": {
+        "zh": "An LLM-driven Knowledge-Informed Graph Convolutional Network for Industrial Quality Prediction Application",
+        "en": "An LLM-driven Knowledge-Informed Graph Convolutional Network for Industrial Quality Prediction Application"
+      },
+      "authors": {
+        "zh": "Y Li, D Ma, J Wang, L Yao, Z Yang, X Jiang",
+        "en": "Y Li, D Ma, J Wang, L Yao, Z Yang, X Jiang"
+      },
+      "venue": {
+        "zh": "2026 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC)",
+        "en": "2026 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC)"
+      },
+      "details": {
+        "zh": "2260-2265 (2026).",
+        "en": "2260-2265 (2026)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11615981/"
+    },
+    {
+      "id": "jiang-journal-2026-abigx-a-unified-framework-for-explainable-fault-detection",
+      "category": "journals",
+      "year": 2026,
+      "title": {
+        "zh": "ABIGX: A unified framework for eXplainable fault detection and classification",
+        "en": "ABIGX: A unified framework for eXplainable fault detection and classification"
+      },
+      "authors": {
+        "zh": "Y Zhuo, J Qian, J Zheng, X Jiang, Z Song, D Chen, W Yu, Z Ge",
+        "en": "Y Zhuo, J Qian, J Zheng, X Jiang, Z Song, D Chen, W Yu, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "en": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      "details": {
+        "zh": "(2026).",
+        "en": "(2026)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11501742/"
+    },
+    {
+      "id": "jiang-conference-2026-reliability-evaluation-framework-for-adversarial-defense-m",
+      "category": "conferences",
+      "year": 2026,
+      "title": {
+        "zh": "Reliability Evaluation Framework for Adversarial Defense Methods in Industrial Intelligent Models",
+        "en": "Reliability Evaluation Framework for Adversarial Defense Methods in Industrial Intelligent Models"
+      },
+      "authors": {
+        "zh": "S Zhang, X Jiang, S Lin, X Ma",
+        "en": "S Zhang, X Jiang, S Lin, X Ma"
+      },
+      "venue": {
+        "zh": "2026 11th International Conference on Computer and Communication Systems (ICCCS)",
+        "en": "2026 11th International Conference on Computer and Communication Systems (ICCCS)"
+      },
+      "details": {
+        "zh": "1-6 (2026).",
+        "en": "1-6 (2026)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11613508/"
+    },
+    {
+      "id": "jiang-journal-2026-slack-more-predict-better-proximal-relaxation-for-probabil",
+      "category": "journals",
+      "year": 2026,
+      "title": {
+        "zh": "Slack More, Predict Better: Proximal Relaxation for Probabilistic Latent Variable Model-Based Soft Sensors",
+        "en": "Slack More, Predict Better: Proximal Relaxation for Probabilistic Latent Variable Model-Based Soft Sensors"
+      },
+      "authors": {
+        "zh": "Z Zou, Y Ma, Y Zhang, Z Li, Z Yang, J Xie, X Jiang, Z Chen",
+        "en": "Z Zou, Y Ma, Y Zhang, Z Li, Z Yang, J Xie, X Jiang, Z Chen"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Industrial Informatics",
+        "en": "IEEE Transactions on Industrial Informatics"
+      },
+      "details": {
+        "zh": "(2026).",
+        "en": "(2026)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11477839/"
+    },
+    {
+      "id": "jiang-journal-2026-graphsiamese-novel-spatial-temporal-slow-feature-fusion-ne",
+      "category": "journals",
+      "year": 2026,
+      "title": {
+        "zh": "GraphSiamese: Novel spatial-temporal slow feature fusion network for industrial process quality prediction",
+        "en": "GraphSiamese: Novel spatial-temporal slow feature fusion network for industrial process quality prediction"
+      },
+      "authors": {
+        "zh": "J Wang, W Xiong, L Yao, X Jiang, X Cui, W Yu, B Young",
+        "en": "J Wang, W Xiong, L Yao, X Jiang, X Cui, W Yu, B Young"
+      },
+      "venue": {
+        "zh": "Applied Soft Computing",
+        "en": "Applied Soft Computing"
+      },
+      "details": {
+        "zh": "114864 (2026).",
+        "en": "114864 (2026)."
+      },
+      "url": "https://www.sciencedirect.com/science/article/pii/S1568494626003121"
+    },
+    {
+      "id": "jiang-journal-2026-synthfed-privacy-preserving-long-tail-ophthalmic-diagnosis",
+      "category": "journals",
+      "year": 2026,
+      "title": {
+        "zh": "SynthFed: Privacy-preserving long-tail ophthalmic diagnosis via VQ-VAE and GPT-augmented federated learning",
+        "en": "SynthFed: Privacy-preserving long-tail ophthalmic diagnosis via VQ-VAE and GPT-augmented federated learning"
+      },
+      "authors": {
+        "zh": "X Jiang, J Qian, A Gu, X Ma, K Jin, X Zhang, Z Song",
+        "en": "X Jiang, J Qian, A Gu, X Ma, K Jin, X Zhang, Z Song"
+      },
+      "venue": {
+        "zh": "Biomedical Signal Processing and Control",
+        "en": "Biomedical Signal Processing and Control"
+      },
+      "details": {
+        "zh": "113, 109181 (2026).",
+        "en": "113, 109181 (2026)."
+      },
+      "url": "https://www.sciencedirect.com/science/article/pii/S1746809425016921"
+    },
+    {
+      "id": "jiang-journal-2026-deepfilter-a-transformer-style-framework-for-accurate-and",
+      "category": "journals",
+      "year": 2026,
+      "title": {
+        "zh": "Deepfilter: A transformer-style framework for accurate and efficient process monitoring",
+        "en": "Deepfilter: A transformer-style framework for accurate and efficient process monitoring"
+      },
+      "authors": {
+        "zh": "H Wang, Z Che, L Pan, X Jiang, Y Song, Q He, X Li",
+        "en": "H Wang, Z Che, L Pan, X Jiang, Y Song, Q He, X Li"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Artificial Intelligence",
+        "en": "IEEE Transactions on Artificial Intelligence"
+      },
+      "details": {
+        "zh": "(2026).",
+        "en": "(2026)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11329174/"
+    },
+    {
+      "id": "jiang-journal-2025-information-leakage-and-privacy-protection-in-industrial-f",
+      "category": "journals",
+      "year": 2025,
+      "title": {
+        "zh": "Information leakage and privacy protection in industrial federated learning",
+        "en": "Information leakage and privacy protection in industrial federated learning"
+      },
+      "authors": {
+        "zh": "Z Lin, X Jiang, X Zhang, L Yao, Z Song",
+        "en": "Z Lin, X Jiang, X Zhang, L Yao, Z Song"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+        "en": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+      },
+      "details": {
+        "zh": "(2025).",
+        "en": "(2025)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11298483/"
+    },
+    {
+      "id": "jiang-journal-2025-edge-compressed-and-energy-optimized-dual-domain-graph-net",
+      "category": "journals",
+      "year": 2025,
+      "title": {
+        "zh": "Edge-compressed and energy-optimized dual-domain graph network with variational gating for industrial soft sensing",
+        "en": "Edge-compressed and energy-optimized dual-domain graph network with variational gating for industrial soft sensing"
+      },
+      "authors": {
+        "zh": "L Mao, Z Yang, B Shen, X Jiang, L Yao, Z Song",
+        "en": "L Mao, Z Yang, B Shen, X Jiang, L Yao, Z Song"
+      },
+      "venue": {
+        "zh": "IEEE Sensors Journal",
+        "en": "IEEE Sensors Journal"
+      },
+      "details": {
+        "zh": "(2025).",
+        "en": "(2025)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11281537/"
+    },
+    {
+      "id": "jiang-journal-2025-learning-beyond-time-transformation-aware-diffusion-for-da",
+      "category": "journals",
+      "year": 2025,
+      "title": {
+        "zh": "Learning beyond time: Transformation-aware diffusion for data-augmented soft-sensor modeling",
+        "en": "Learning beyond time: Transformation-aware diffusion for data-augmented soft-sensor modeling"
+      },
+      "authors": {
+        "zh": "B Shen, B Champagne, X Jiang, L Yao",
+        "en": "B Shen, B Champagne, X Jiang, L Yao"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Industrial Informatics",
+        "en": "IEEE Transactions on Industrial Informatics"
+      },
+      "details": {
+        "zh": "(2025).",
+        "en": "(2025)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11278466/"
+    },
+    {
+      "id": "jiang-journal-2025-mltauxtspp-a-unified-benchmark-for-deep-learning-based-tra",
+      "category": "journals",
+      "year": 2025,
+      "title": {
+        "zh": "MltAuxTSPP: a unified benchmark for deep learning-based traffic state prediction with multi-source auxiliary data",
+        "en": "MltAuxTSPP: a unified benchmark for deep learning-based traffic state prediction with multi-source auxiliary data"
+      },
+      "authors": {
+        "zh": "Y Zhou, X Jiang, S Sun, X Zhang, Y Mo, Z Song",
+        "en": "Y Zhou, X Jiang, S Sun, X Zhang, Y Mo, Z Song"
+      },
+      "venue": {
+        "zh": "Frontiers of Information Technology & Electronic Engineering",
+        "en": "Frontiers of Information Technology & Electronic Engineering"
+      },
+      "details": {
+        "zh": "26(10), 1984-1999 (2025).",
+        "en": "26(10), 1984-1999 (2025)."
+      },
+      "url": "https://link.springer.com/article/10.1631/FITEE.2500169"
+    },
+    {
+      "id": "jiang-conference-2025-temporal-aware-self-attention-enhanced-bidirectional-gated",
+      "category": "conferences",
+      "year": 2025,
+      "title": {
+        "zh": "Temporal-Aware Self-Attention Enhanced Bidirectional Gated Recurrent Unit for Dynamic Fault Detection in Industrial Processes",
+        "en": "Temporal-Aware Self-Attention Enhanced Bidirectional Gated Recurrent Unit for Dynamic Fault Detection in Industrial Processes"
+      },
+      "authors": {
+        "zh": "X Kong, S Chai, J Qian, B He, J Wang, X Jiang",
+        "en": "X Kong, S Chai, J Qian, B He, J Wang, X Jiang"
+      },
+      "venue": {
+        "zh": "2025 9th International Symposium on Computer Science and Intelligent Control (ISCSIC)",
+        "en": "2025 9th International Symposium on Computer Science and Intelligent Control (ISCSIC)"
+      },
+      "details": {
+        "zh": "1-5 (2025).",
+        "en": "1-5 (2025)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11351999/"
+    },
+    {
+      "id": "jiang-conference-2025-robust-soft-sensor-model-based-on-frequency-domain-adaptiv",
+      "category": "conferences",
+      "year": 2025,
+      "title": {
+        "zh": "Robust Soft Sensor Model Based on Frequency-Domain Adaptive Graph",
+        "en": "Robust Soft Sensor Model Based on Frequency-Domain Adaptive Graph"
+      },
+      "authors": {
+        "zh": "L Mao, Z Yang, L Yao, J Qin, X Jiang, B Shen",
+        "en": "L Mao, Z Yang, L Yao, J Qin, X Jiang, B Shen"
+      },
+      "venue": {
+        "zh": "2025 44th Chinese Control Conference (CCC)",
+        "en": "2025 44th Chinese Control Conference (CCC)"
+      },
+      "details": {
+        "zh": "6753-6758 (2025).",
+        "en": "6753-6758 (2025)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11179230/"
+    },
+    {
+      "id": "jiang-journal-2025-advancing-industrial-data-augmentation-in-aigc-era-from-fo",
+      "category": "journals",
+      "year": 2025,
+      "title": {
+        "zh": "Advancing industrial data augmentation in AIGC era: From foundations to frontier applications",
+        "en": "Advancing industrial data augmentation in AIGC era: From foundations to frontier applications"
+      },
+      "authors": {
+        "zh": "X Jiang, C Zheng, Y Zhuo, X Kong, Z Ge, Z Song, M Xie",
+        "en": "X Jiang, C Zheng, Y Zhuo, X Kong, Z Ge, Z Song, M Xie"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Instrumentation and Measurement",
+        "en": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      "details": {
+        "zh": "74, 1-22 (2025).",
+        "en": "74, 1-22 (2025)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11026826/"
+    },
+    {
+      "id": "jiang-journal-2025-data-id-extraction-networks-for-unsupervised-class-and-cla",
+      "category": "journals",
+      "year": 2025,
+      "title": {
+        "zh": "Data ID extraction networks for unsupervised class-and classifier-free detection of adversarial examples",
+        "en": "Data ID extraction networks for unsupervised class-and classifier-free detection of adversarial examples"
+      },
+      "authors": {
+        "zh": "X Kong, X Jiang, Z Song, Z Ge",
+        "en": "X Kong, X Jiang, Z Song, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "en": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      "details": {
+        "zh": "47(9), 7428-7442 (2025).",
+        "en": "47(9), 7428-7442 (2025)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11008833/"
+    },
+    {
+      "id": "jiang-conference-2025-enhancing-industrial-soft-sensing-via-optimized-message-pa",
+      "category": "conferences",
+      "year": 2025,
+      "title": {
+        "zh": "Enhancing Industrial Soft Sensing via Optimized Message Passing in Spatial-Temporal Graph Neural Network",
+        "en": "Enhancing Industrial Soft Sensing via Optimized Message Passing in Spatial-Temporal Graph Neural Network"
+      },
+      "authors": {
+        "zh": "L Mao, Z Yang, L Yao, B Shen, X Jiang, Z Chen",
+        "en": "L Mao, Z Yang, L Yao, B Shen, X Jiang, Z Chen"
+      },
+      "venue": {
+        "zh": "2025 IEEE 14th Data Driven Control and Learning Systems (DDCLS)",
+        "en": "2025 IEEE 14th Data Driven Control and Learning Systems (DDCLS)"
+      },
+      "details": {
+        "zh": "646-651 (2025).",
+        "en": "646-651 (2025)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11065464/"
+    },
+    {
+      "id": "jiang-journal-2025-advances-in-bayesian-networks-for-industrial-process-analy",
+      "category": "journals",
+      "year": 2025,
+      "title": {
+        "zh": "Advances in Bayesian networks for industrial process analytics: Bridging data and mechanisms",
+        "en": "Advances in Bayesian networks for industrial process analytics: Bridging data and mechanisms"
+      },
+      "authors": {
+        "zh": "J Zheng, Y Zhuo, X Jiang, L Zeng, Z Ge",
+        "en": "J Zheng, Y Zhuo, X Jiang, L Zeng, Z Ge"
+      },
+      "venue": {
+        "zh": "Expert Systems with Applications",
+        "en": "Expert Systems with Applications"
+      },
+      "details": {
+        "zh": "271, 126670 (2025).",
+        "en": "271, 126670 (2025)."
+      },
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417425002921"
+    },
+    {
+      "id": "jiang-journal-2025-gaussian-mixture-timevae-for-industrial-soft-sensing-with",
+      "category": "journals",
+      "year": 2025,
+      "title": {
+        "zh": "Gaussian mixture TimeVAE for industrial soft sensing with deep time series decomposition and generation",
+        "en": "Gaussian mixture TimeVAE for industrial soft sensing with deep time series decomposition and generation"
+      },
+      "authors": {
+        "zh": "B Shen, X Jiang, L Yao, J Zeng",
+        "en": "B Shen, X Jiang, L Yao, J Zeng"
+      },
+      "venue": {
+        "zh": "Journal of Process Control",
+        "en": "Journal of Process Control"
+      },
+      "details": {
+        "zh": "147, 103355 (2025).",
+        "en": "147, 103355 (2025)."
+      },
+      "url": "https://www.sciencedirect.com/science/article/pii/S0959152424001951"
+    },
+    {
+      "id": "jiang-journal-2025-enhancing-few-shot-surface-defect-recognition-via-pre-trai",
+      "category": "journals",
+      "year": 2025,
+      "title": {
+        "zh": "Enhancing Few-Shot Surface Defect Recognition via Pre-Trained Large Generative Models",
+        "en": "Enhancing Few-Shot Surface Defect Recognition via Pre-Trained Large Generative Models"
+      },
+      "authors": {
+        "zh": "X Jiang, Z Lin, X Kong, J Chen, Z Song, M Xie",
+        "en": "X Jiang, Z Lin, X Kong, J Chen, Z Song, M Xie"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Automation Science and Engineering",
+        "en": "IEEE Transactions on Automation Science and Engineering"
+      },
+      "details": {
+        "zh": "(2025).",
+        "en": "(2025)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/11289551/"
+    },
+    {
+      "id": "jiang-journal-2025-mltauxtspp",
+      "category": "journals",
+      "year": 2025,
+      "title": {
+        "zh": "MltAuxTSPP: 一个融合多源辅助数据的交通预测深度学习统一基准框架",
+        "en": "MltAuxTSPP: 一个融合多源辅助数据的交通预测深度学习统一基准框架"
+      },
+      "authors": {
+        "zh": "Y ZHOU, X JIANG, S SUN, X ZHANG, Y MO, Z SONG",
+        "en": "Y ZHOU, X JIANG, S SUN, X ZHANG, Y MO, Z SONG"
+      },
+      "venue": {
+        "zh": "Frontiers",
+        "en": "Frontiers"
+      },
+      "details": {
+        "zh": "26(10), 1984-1999 (2025).",
+        "en": "26(10), 1984-1999 (2025)."
+      },
+      "url": "https://jzus.zju.edu.cn/article.php?doi=10.1631/FITEE.2500169"
+    },
+    {
+      "id": "jiang-conference-2025-deepfilter-an-instrumental-baseline-for-accurate-and-effic",
+      "category": "conferences",
+      "year": 2025,
+      "title": {
+        "zh": "Deepfilter: An instrumental baseline for accurate and efficient process monitoring",
+        "en": "Deepfilter: An instrumental baseline for accurate and efficient process monitoring"
+      },
+      "authors": {
+        "zh": "H Wang, Z Chen, L Pan, X Jiang, Y Song, Q He, X Liu",
+        "en": "H Wang, Z Chen, L Pan, X Jiang, Y Song, Q He, X Liu"
+      },
+      "venue": {
+        "zh": "arXiv preprint arXiv:2501.01342",
+        "en": "arXiv preprint arXiv:2501.01342"
+      },
+      "details": {
+        "zh": "(2025).",
+        "en": "(2025)."
+      },
+      "url": "https://arxiv.org/abs/2501.01342"
+    },
+    {
+      "id": "jiang-journal-2024-rethinking-the-diffusion-models-for-missing-data-imputatio",
+      "category": "journals",
+      "year": 2024,
+      "title": {
+        "zh": "Rethinking the diffusion models for missing data imputation: A gradient flow perspective",
+        "en": "Rethinking the diffusion models for missing data imputation: A gradient flow perspective"
+      },
+      "authors": {
+        "zh": "Z Chen, H Li, F Wang, O Zhang, H Xu, X Jiang, Z Song, H Wang",
+        "en": "Z Chen, H Li, F Wang, O Zhang, H Xu, X Jiang, Z Song, H Wang"
+      },
+      "venue": {
+        "zh": "Advances in Neural Information Processing Systems",
+        "en": "Advances in Neural Information Processing Systems"
+      },
+      "details": {
+        "zh": "37, 112050-112103 (2024).",
+        "en": "37, 112050-112103 (2024)."
+      },
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/cb1ba6a42814bf83974ed45ffdb72efa-Abstract-Conference.html"
+    },
+    {
+      "id": "jiang-conference-2024-cloud-edge-collaborative-gaussian-mixture-model-for-qualit",
+      "category": "conferences",
+      "year": 2024,
+      "title": {
+        "zh": "Cloud-Edge Collaborative Gaussian Mixture Model for Quality Prediction of Large-Scale Industrial Processes",
+        "en": "Cloud-Edge Collaborative Gaussian Mixture Model for Quality Prediction of Large-Scale Industrial Processes"
+      },
+      "authors": {
+        "zh": "L Yao, Z Zhu, B Shen, Z Yang, X Jiang",
+        "en": "L Yao, Z Zhu, B Shen, Z Yang, X Jiang"
+      },
+      "venue": {
+        "zh": "International Conference on Advanced Robotics, Control, and Artificial …",
+        "en": "International Conference on Advanced Robotics, Control, and Artificial …"
+      },
+      "details": {
+        "zh": "599-609 (2024).",
+        "en": "599-609 (2024)."
+      },
+      "url": "https://link.springer.com/chapter/10.1007/978-981-96-5373-7_49"
+    },
+    {
+      "id": "jiang-conference-2024-tcpp-a-benchmark-platform-for-traffic-congestion-predictio",
+      "category": "conferences",
+      "year": 2024,
+      "title": {
+        "zh": "TCPP: A Benchmark Platform for Traffic Congestion Prediction with Multi-Source Auxiliary Data",
+        "en": "TCPP: A Benchmark Platform for Traffic Congestion Prediction with Multi-Source Auxiliary Data"
+      },
+      "authors": {
+        "zh": "Y Zhou, X Zhang, X Jiang, Z Song",
+        "en": "Y Zhou, X Zhang, X Jiang, Z Song"
+      },
+      "venue": {
+        "zh": "2024 China Automation Congress (CAC)",
+        "en": "2024 China Automation Congress (CAC)"
+      },
+      "details": {
+        "zh": "3476-3481 (2024).",
+        "en": "3476-3481 (2024)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10864649/"
+    },
+    {
+      "id": "jiang-conference-2024-a-hand-action-recognition-framework-based-on-multimodal-fo",
+      "category": "conferences",
+      "year": 2024,
+      "title": {
+        "zh": "A hand action recognition framework based on multimodal foundation model and tracking of skeleton point trajectorie",
+        "en": "A hand action recognition framework based on multimodal foundation model and tracking of skeleton point trajectorie"
+      },
+      "authors": {
+        "zh": "L Wu, X Jiang, X Ma",
+        "en": "L Wu, X Jiang, X Ma"
+      },
+      "venue": {
+        "zh": "2024 IEEE International Conference on Cognitive Computing and Complex Data (ICCD)",
+        "en": "2024 IEEE International Conference on Cognitive Computing and Complex Data (ICCD)"
+      },
+      "details": {
+        "zh": "36-40 (2024).",
+        "en": "36-40 (2024)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10843614/"
+    },
+    {
+      "id": "jiang-journal-2024-robust-adversarial-attacks-on-imperfect-deep-neural-networ",
+      "category": "journals",
+      "year": 2024,
+      "title": {
+        "zh": "Robust adversarial attacks on imperfect deep neural networks in fault classification",
+        "en": "Robust adversarial attacks on imperfect deep neural networks in fault classification"
+      },
+      "authors": {
+        "zh": "X Jiang, X Kong, J Zheng, Z Ge, X Zhang, Z Song",
+        "en": "X Jiang, X Kong, J Zheng, Z Ge, X Zhang, Z Song"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Industrial Informatics",
+        "en": "IEEE Transactions on Industrial Informatics"
+      },
+      "details": {
+        "zh": "20(12), 14297-14307 (2024).",
+        "en": "20(12), 14297-14307 (2024)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10679566/"
+    },
+    {
+      "id": "jiang-journal-2024-leveraging-transfer-learning-for-data-augmentation-in-faul",
+      "category": "journals",
+      "year": 2024,
+      "title": {
+        "zh": "Leveraging transfer learning for data augmentation in fault diagnosis of imbalanced time-frequency images",
+        "en": "Leveraging transfer learning for data augmentation in fault diagnosis of imbalanced time-frequency images"
+      },
+      "authors": {
+        "zh": "X Jiang, J Zheng, Z Chen, Z Ge, Z Song, X Ma",
+        "en": "X Jiang, J Zheng, Z Chen, Z Ge, Z Song, X Ma"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Automation Science and Engineering",
+        "en": "IEEE Transactions on Automation Science and Engineering"
+      },
+      "details": {
+        "zh": "22, 6762-6772 (2024).",
+        "en": "22, 6762-6772 (2024)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10677354/"
+    },
+    {
+      "id": "jiang-journal-2024-swarm-learning-for-secure-and-effective-industrial-federat",
+      "category": "journals",
+      "year": 2024,
+      "title": {
+        "zh": "Swarm learning for secure and effective industrial federated big data analytics",
+        "en": "Swarm learning for secure and effective industrial federated big data analytics"
+      },
+      "authors": {
+        "zh": "X Jiang, Y Cheng, Z Song, X Ma, L Ye, Z Ge",
+        "en": "X Jiang, Y Cheng, Z Song, X Ma, L Ye, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Reliability",
+        "en": "IEEE Transactions on Reliability"
+      },
+      "details": {
+        "zh": "74(2), 2893-2903 (2024).",
+        "en": "74(2), 2893-2903 (2024)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10659144/"
+    },
+    {
+      "id": "jiang-conference-2024-predictive-analytics-of-industrial-quality-kpis-using-scal",
+      "category": "conferences",
+      "year": 2024,
+      "title": {
+        "zh": "Predictive Analytics of Industrial Quality KPIs Using Scalable Gaussian Mixture Modeling",
+        "en": "Predictive Analytics of Industrial Quality KPIs Using Scalable Gaussian Mixture Modeling"
+      },
+      "authors": {
+        "zh": "X Zhai, K Tang, R Chen, S Tang, B Shen, X Jiang, C Wei, L Yao",
+        "en": "X Zhai, K Tang, R Chen, S Tang, B Shen, X Jiang, C Wei, L Yao"
+      },
+      "venue": {
+        "zh": "2024 6th International Conference on Industrial Artificial Intelligence (IAI)",
+        "en": "2024 6th International Conference on Industrial Artificial Intelligence (IAI)"
+      },
+      "details": {
+        "zh": "1-6 (2024).",
+        "en": "1-6 (2024)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10730602/"
+    },
+    {
+      "id": "jiang-journal-2024-enhancing-the-ophthalmic-ai-assessment-with-a-fundus-image",
+      "category": "journals",
+      "year": 2024,
+      "title": {
+        "zh": "Enhancing the ophthalmic AI assessment with a fundus image quality classifier using local and global attention mechanisms",
+        "en": "Enhancing the ophthalmic AI assessment with a fundus image quality classifier using local and global attention mechanisms"
+      },
+      "authors": {
+        "zh": "S Wang, W Shen, Z Gao, X Jiang, Y Wang, Y Li, X Ma, W Wang, S Xin, ...",
+        "en": "S Wang, W Shen, Z Gao, X Jiang, Y Wang, Y Li, X Ma, W Wang, S Xin, ..."
+      },
+      "venue": {
+        "zh": "Frontiers in Medicine",
+        "en": "Frontiers in Medicine"
+      },
+      "details": {
+        "zh": "11, 1418048 (2024).",
+        "en": "11, 1418048 (2024)."
+      },
+      "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2024.1418048/full"
+    },
+    {
+      "id": "jiang-conference-2024-rethinking-the-diffusion-models-for-numerical-tabular-data",
+      "category": "conferences",
+      "year": 2024,
+      "title": {
+        "zh": "Rethinking the diffusion models for numerical tabular data imputation from the perspective of wasserstein gradient flow",
+        "en": "Rethinking the diffusion models for numerical tabular data imputation from the perspective of wasserstein gradient flow"
+      },
+      "authors": {
+        "zh": "Z Chen, H Li, F Wang, O Zhang, H Xu, X Jiang, Z Song, EH Wang",
+        "en": "Z Chen, H Li, F Wang, O Zhang, H Xu, X Jiang, Z Song, EH Wang"
+      },
+      "venue": {
+        "zh": "arXiv preprint arXiv:2406.15762",
+        "en": "arXiv preprint arXiv:2406.15762"
+      },
+      "details": {
+        "zh": "(2024).",
+        "en": "(2024)."
+      },
+      "url": "https://arxiv.org/abs/2406.15762"
+    },
+    {
+      "id": "jiang-conference-2024-fedaws-a-federated-tuning-approach-with-adaptive-weight-sh",
+      "category": "conferences",
+      "year": 2024,
+      "title": {
+        "zh": "FedAWS: A Federated Tuning Approach with Adaptive Weight Shrinking for Pre-trained Foundation Models",
+        "en": "FedAWS: A Federated Tuning Approach with Adaptive Weight Shrinking for Pre-trained Foundation Models"
+      },
+      "authors": {
+        "zh": "Y Cheng, Z Song, X Jiang, L Yao",
+        "en": "Y Cheng, Z Song, X Jiang, L Yao"
+      },
+      "venue": {
+        "zh": "2024 IEEE 13th Data Driven Control and Learning Systems Conference (DDCLS)",
+        "en": "2024 IEEE 13th Data Driven Control and Learning Systems Conference (DDCLS)"
+      },
+      "details": {
+        "zh": "1544-1548 (2024).",
+        "en": "1544-1548 (2024)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10606783/"
+    },
+    {
+      "id": "jiang-conference-2024-a-novel-time-diffusion-model-for-industrial-time-series-da",
+      "category": "conferences",
+      "year": 2024,
+      "title": {
+        "zh": "A novel time diffusion model for industrial time series data generation",
+        "en": "A novel time diffusion model for industrial time series data generation"
+      },
+      "authors": {
+        "zh": "C Zheng, X Jiang, Z Song, X Zhang, B Shen",
+        "en": "C Zheng, X Jiang, Z Song, X Zhang, B Shen"
+      },
+      "venue": {
+        "zh": "2024 IEEE 13th Data Driven Control and Learning Systems Conference (DDCLS)",
+        "en": "2024 IEEE 13th Data Driven Control and Learning Systems Conference (DDCLS)"
+      },
+      "details": {
+        "zh": "894-899 (2024).",
+        "en": "894-899 (2024)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10606681/"
+    },
+    {
+      "id": "jiang-journal-2024-fault-diagnosis-of-harmonic-drives-based-on-markov-field-g",
+      "category": "journals",
+      "year": 2024,
+      "title": {
+        "zh": "Fault diagnosis of harmonic drives based on Markov field graph information",
+        "en": "Fault diagnosis of harmonic drives based on Markov field graph information"
+      },
+      "authors": {
+        "zh": "S Huang, X Guo, Z Long, X Ma, W Chen, W Lin, R Jia, P Duan, X Jiang",
+        "en": "S Huang, X Guo, Z Long, X Ma, W Chen, W Lin, R Jia, P Duan, X Jiang"
+      },
+      "venue": {
+        "zh": "IEEE Sensors Journal",
+        "en": "IEEE Sensors Journal"
+      },
+      "details": {
+        "zh": "24(12), 19891-19900 (2024).",
+        "en": "24(12), 19891-19900 (2024)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10517915/"
+    },
+    {
+      "id": "jiang-journal-2024-clinical-evaluation-of-deep-learning-systems-for-assisting",
+      "category": "journals",
+      "year": 2024,
+      "title": {
+        "zh": "Clinical evaluation of deep learning systems for assisting in the diagnosis of the epiretinal membrane grade in general ophthalmologists",
+        "en": "Clinical evaluation of deep learning systems for assisting in the diagnosis of the epiretinal membrane grade in general ophthalmologists"
+      },
+      "authors": {
+        "zh": "Y Yan, X Huang, X Jiang, Z Gao, X Liu, K Jin, J Ye",
+        "en": "Y Yan, X Huang, X Jiang, Z Gao, X Liu, K Jin, J Ye"
+      },
+      "venue": {
+        "zh": "Eye",
+        "en": "Eye"
+      },
+      "details": {
+        "zh": "38(4), 730-736 (2024).",
+        "en": "38(4), 730-736 (2024)."
+      },
+      "url": "https://www.nature.com/articles/s41433-023-02765-9"
+    },
+    {
+      "id": "jiang-conference-2024-transcending-adversarial-perturbations-manifold-aided-adve",
+      "category": "conferences",
+      "year": 2024,
+      "title": {
+        "zh": "Transcending adversarial perturbations: manifold-aided adversarial examples with legitimate semantics",
+        "en": "Transcending adversarial perturbations: manifold-aided adversarial examples with legitimate semantics"
+      },
+      "authors": {
+        "zh": "S Li, X Jiang, X Ma",
+        "en": "S Li, X Jiang, X Ma"
+      },
+      "venue": {
+        "zh": "arXiv preprint arXiv:2402.03095",
+        "en": "arXiv preprint arXiv:2402.03095"
+      },
+      "details": {
+        "zh": "(2024).",
+        "en": "(2024)."
+      },
+      "url": "https://arxiv.org/abs/2402.03095"
+    },
+    {
+      "id": "jiang-journal-2024-reliable-data-driven-soft-sensor-modeling-with-the-aid-of",
+      "category": "journals",
+      "year": 2024,
+      "title": {
+        "zh": "Reliable Data-Driven Soft Sensor Modeling with the Aid of Stable Loss Function and Sample Graph",
+        "en": "Reliable Data-Driven Soft Sensor Modeling with the Aid of Stable Loss Function and Sample Graph"
+      },
+      "authors": {
+        "zh": "R Zhai, J Qian, X Jiang, X Zhang, Z Song, M Kano",
+        "en": "R Zhai, J Qian, X Jiang, X Zhang, Z Song, M Kano"
+      },
+      "venue": {
+        "zh": "Computer Aided Chemical Engineering 53, 3013-3018",
+        "en": "Computer Aided Chemical Engineering 53, 3013-3018"
+      },
+      "details": {
+        "zh": "53, 3013-3018 (2024).",
+        "en": "53, 3013-3018 (2024)."
+      },
+      "url": "https://www.sciencedirect.com/science/article/pii/B9780443288241505032"
+    },
+    {
+      "id": "jiang-journal-2023-automatic-interpretation-and-clinical-evaluation-for-fundu",
+      "category": "journals",
+      "year": 2023,
+      "title": {
+        "zh": "Automatic interpretation and clinical evaluation for fundus fluorescein angiography images of diabetic retinopathy patients by deep learning",
+        "en": "Automatic interpretation and clinical evaluation for fundus fluorescein angiography images of diabetic retinopathy patients by deep learning"
+      },
+      "authors": {
+        "zh": "Z Gao, X Pan, J Shao, X Jiang, Z Su, K Jin, J Ye",
+        "en": "Z Gao, X Pan, J Shao, X Jiang, Z Su, K Jin, J Ye"
+      },
+      "venue": {
+        "zh": "British Journal of Ophthalmology",
+        "en": "British Journal of Ophthalmology"
+      },
+      "details": {
+        "zh": "107(12), 1852-1858 (2023).",
+        "en": "107(12), 1852-1858 (2023)."
+      },
+      "url": "https://bjo.bmj.com/content/107/12/1852.abstract"
+    },
+    {
+      "id": "jiang-conference-2023-federated-ophthalmic-disease-diagnosis-based-on-weighted-a",
+      "category": "conferences",
+      "year": 2023,
+      "title": {
+        "zh": "Federated Ophthalmic Disease Diagnosis Based on Weighted Averaging and Local Optimization",
+        "en": "Federated Ophthalmic Disease Diagnosis Based on Weighted Averaging and Local Optimization"
+      },
+      "authors": {
+        "zh": "A Gu, X Jiang, Z Gao, J Ye, K Jin, X Zhang",
+        "en": "A Gu, X Jiang, Z Gao, J Ye, K Jin, X Zhang"
+      },
+      "venue": {
+        "zh": "2023 China Automation Congress (CAC)",
+        "en": "2023 China Automation Congress (CAC)"
+      },
+      "details": {
+        "zh": "8221-8226 (2023).",
+        "en": "8221-8226 (2023)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10450832/"
+    },
+    {
+      "id": "jiang-conference-2023-balanced-adversarial-robust-learning-for-industrial-fault",
+      "category": "conferences",
+      "year": 2023,
+      "title": {
+        "zh": "Balanced Adversarial Robust Learning for Industrial Fault Classification with Imbalanced Data",
+        "en": "Balanced Adversarial Robust Learning for Industrial Fault Classification with Imbalanced Data"
+      },
+      "authors": {
+        "zh": "Z Yin, X Jiang, J Qian, X Zhang, Z Song, Q Ren",
+        "en": "Z Yin, X Jiang, J Qian, X Zhang, Z Song, Q Ren"
+      },
+      "venue": {
+        "zh": "IECON 2023-49th Annual Conference of the IEEE Industrial Electronics Society",
+        "en": "IECON 2023-49th Annual Conference of the IEEE Industrial Electronics Society"
+      },
+      "details": {
+        "zh": "1-6 (2023).",
+        "en": "1-6 (2023)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10312010/"
+    },
+    {
+      "id": "jiang-conference-2023-data-augmentation-based-on-active-virtual-sample-selection",
+      "category": "conferences",
+      "year": 2023,
+      "title": {
+        "zh": "Data augmentation based on active virtual sample selection for bearing fault diagnosis",
+        "en": "Data augmentation based on active virtual sample selection for bearing fault diagnosis"
+      },
+      "authors": {
+        "zh": "Z Song, X Jiang, W Yu, J Qian, Z Song",
+        "en": "Z Song, X Jiang, W Yu, J Qian, Z Song"
+      },
+      "venue": {
+        "zh": "2023 CAA Symposium on Fault Detection, Supervision and Safety for Technical Processes (SAFEPROCESS)",
+        "en": "2023 CAA Symposium on Fault Detection, Supervision and Safety for Technical Processes (SAFEPROCESS)"
+      },
+      "details": {
+        "zh": "1-6 (2023).",
+        "en": "1-6 (2023)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10295590/"
+    },
+    {
+      "id": "jiang-journal-2023-augmented-industrial-data-driven-modeling-under-the-curse",
+      "category": "journals",
+      "year": 2023,
+      "title": {
+        "zh": "Augmented industrial data-driven modeling under the curse of dimensionality",
+        "en": "Augmented industrial data-driven modeling under the curse of dimensionality"
+      },
+      "authors": {
+        "zh": "X Jiang, X Kong, Z Ge",
+        "en": "X Jiang, X Kong, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE/CAA Journal of Automatica Sinica",
+        "en": "IEEE/CAA Journal of Automatica Sinica"
+      },
+      "details": {
+        "zh": "10(6), 1445-1461 (2023).",
+        "en": "10(6), 1445-1461 (2023)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10141541/"
+    },
+    {
+      "id": "jiang-journal-2023-mshf-a-multi-source-heterogeneous-fundus-mshf-dataset-for",
+      "category": "journals",
+      "year": 2023,
+      "title": {
+        "zh": "MSHF: a multi-source heterogeneous fundus (MSHF) dataset for image quality assessment",
+        "en": "MSHF: a multi-source heterogeneous fundus (MSHF) dataset for image quality assessment"
+      },
+      "authors": {
+        "zh": "K Jin, Z Gao, X Jiang, Y Wang, X Ma, Y Li, J Ye",
+        "en": "K Jin, Z Gao, X Jiang, Y Wang, X Ma, Y Li, J Ye"
+      },
+      "venue": {
+        "zh": "Scientific data",
+        "en": "Scientific data"
+      },
+      "details": {
+        "zh": "10(1), 286 (2023).",
+        "en": "10(1), 286 (2023)."
+      },
+      "url": "https://www.nature.com/articles/s41597-023-02188-x"
+    },
+    {
+      "id": "jiang-conference-2023-gaussian-mixture-model-and-double-weighted-deep-neural-net",
+      "category": "conferences",
+      "year": 2023,
+      "title": {
+        "zh": "Gaussian mixture model and double-weighted deep neural networks for data augmentation soft sensing",
+        "en": "Gaussian mixture model and double-weighted deep neural networks for data augmentation soft sensing"
+      },
+      "authors": {
+        "zh": "X Jiang, L Yao, Z Yang, Z Song, B Shen",
+        "en": "X Jiang, L Yao, Z Yang, Z Song, B Shen"
+      },
+      "venue": {
+        "zh": "2023 IEEE 12th Data Driven Control and Learning Systems Conference (DDCLS)",
+        "en": "2023 IEEE 12th Data Driven Control and Learning Systems Conference (DDCLS)"
+      },
+      "details": {
+        "zh": "1914-1919 (2023).",
+        "en": "1914-1919 (2023)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10166693/"
+    },
+    {
+      "id": "jiang-conference-2023-time-series-data-augmentation-classifier-for-industrial-pr",
+      "category": "conferences",
+      "year": 2023,
+      "title": {
+        "zh": "Time series data augmentation classifier for industrial process imbalanced fault diagnosis",
+        "en": "Time series data augmentation classifier for industrial process imbalanced fault diagnosis"
+      },
+      "authors": {
+        "zh": "B Shen, L Yao, X Jiang, Z Yang, J Zeng",
+        "en": "B Shen, L Yao, X Jiang, Z Yang, J Zeng"
+      },
+      "venue": {
+        "zh": "2023 IEEE 12th Data Driven Control and Learning Systems Conference (DDCLS)",
+        "en": "2023 IEEE 12th Data Driven Control and Learning Systems Conference (DDCLS)"
+      },
+      "details": {
+        "zh": "1392-1397 (2023).",
+        "en": "1392-1397 (2023)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/10166336/"
+    },
+    {
+      "id": "jiang-conference-2023-deep-learning-based-interpretable-detection-method-for-fun",
+      "category": "conferences",
+      "year": 2023,
+      "title": {
+        "zh": "Deep Learning-based Interpretable Detection Method for Fundus Diseases: Diagnosis and Information Mining of Diseases based on Fundus Photography Images",
+        "en": "Deep Learning-based Interpretable Detection Method for Fundus Diseases: Diagnosis and Information Mining of Diseases based on Fundus Photography Images"
+      },
+      "authors": {
+        "zh": "Z Shen, X Jiang, X Huang",
+        "en": "Z Shen, X Jiang, X Huang"
+      },
+      "venue": {
+        "zh": "Proceedings of the 2023 3rd International Conference on Bioinformatics and …",
+        "en": "Proceedings of the 2023 3rd International Conference on Bioinformatics and …"
+      },
+      "details": {
+        "zh": "305-309 (2023).",
+        "en": "305-309 (2023)."
+      },
+      "url": "https://dl.acm.org/doi/abs/10.1145/3592686.3592741"
+    },
+    {
+      "id": "jiang-journal-2023-neural-network-flow-optimization-using-an-oscillating-cyli",
+      "category": "journals",
+      "year": 2023,
+      "title": {
+        "zh": "Neural network flow optimization using an oscillating cylinder",
+        "en": "Neural network flow optimization using an oscillating cylinder"
+      },
+      "authors": {
+        "zh": "M Zhang, ZC Zheng, Y Liu, X Jiang",
+        "en": "M Zhang, ZC Zheng, Y Liu, X Jiang"
+      },
+      "venue": {
+        "zh": "AIP Advances",
+        "en": "AIP Advances"
+      },
+      "details": {
+        "zh": "13 (2023).",
+        "en": "13 (2023)."
+      },
+      "url": "https://pubs.aip.org/aip/adv/article/13/2/025327/2877675"
+    },
+    {
+      "id": "jiang-journal-2023-temporospatial-graph-attention-networks-with-applications",
+      "category": "journals",
+      "year": 2023,
+      "title": {
+        "zh": "Temporospatial graph attention networks with applications for industrial dynamic soft sensor modeling",
+        "en": "Temporospatial graph attention networks with applications for industrial dynamic soft sensor modeling"
+      },
+      "authors": {
+        "zh": "CY ZHANG, ZC CHEN, XY JIANG, ZQ GE",
+        "en": "CY ZHANG, ZC CHEN, XY JIANG, ZQ GE"
+      },
+      "venue": {
+        "zh": "SCIENTIA SINICA Technologica",
+        "en": "SCIENTIA SINICA Technologica"
+      },
+      "details": {
+        "zh": "53(7), 1163-1174 (2023).",
+        "en": "53(7), 1163-1174 (2023)."
+      },
+      "url": "https://www.sciengine.com/doi/pdf/3C077B089F0241DD8C471717A1C91242"
+    },
+    {
+      "id": "jiang-journal-2023-ensemble-data-augmentation-for-imbalanced-fault-diagnosis",
+      "category": "journals",
+      "year": 2023,
+      "title": {
+        "zh": "Ensemble data augmentation for imbalanced fault diagnosis",
+        "en": "Ensemble data augmentation for imbalanced fault diagnosis"
+      },
+      "authors": {
+        "zh": "X Jiang, J Zheng, X Zhuang, Z Ge",
+        "en": "X Jiang, J Zheng, X Zhuang, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Instrumentation and Measurement",
+        "en": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      "details": {
+        "zh": "72 (2023).",
+        "en": "72 (2023)."
+      },
+      "url": "https://doi.org/10.1109/TIM.2023.3307757"
+    },
+    {
+      "id": "jiang-journal-2022-ragan-regression-attention-generative-adversarial-networks",
+      "category": "journals",
+      "year": 2022,
+      "title": {
+        "zh": "RAGAN: Regression attention generative adversarial networks",
+        "en": "RAGAN: Regression attention generative adversarial networks"
+      },
+      "authors": {
+        "zh": "X Jiang, Z Ge",
+        "en": "X Jiang, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Artificial Intelligence",
+        "en": "IEEE Transactions on Artificial Intelligence"
+      },
+      "details": {
+        "zh": "4(6), 1549-1563 (2022).",
+        "en": "4(6), 1549-1563 (2022)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/9904031/"
+    },
+    {
+      "id": "jiang-journal-2022-attacks-on-data-driven-process-monitoring-systems-subspace",
+      "category": "journals",
+      "year": 2022,
+      "title": {
+        "zh": "Attacks on data-driven process monitoring systems: Subspace transfer networks",
+        "en": "Attacks on data-driven process monitoring systems: Subspace transfer networks"
+      },
+      "authors": {
+        "zh": "X Jiang, Z Ge",
+        "en": "X Jiang, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Artificial Intelligence",
+        "en": "IEEE Transactions on Artificial Intelligence"
+      },
+      "details": {
+        "zh": "3(3), 470-484 (2022).",
+        "en": "3(3), 470-484 (2022)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/9691915/"
+    },
+    {
+      "id": "jiang-journal-2022-improving-the-performance-of-just-in-time-learning-based-s",
+      "category": "journals",
+      "year": 2022,
+      "title": {
+        "zh": "Improving the performance of just-in-time learning-based soft sensor through data augmentation",
+        "en": "Improving the performance of just-in-time learning-based soft sensor through data augmentation"
+      },
+      "authors": {
+        "zh": "X Jiang, Z Ge",
+        "en": "X Jiang, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Industrial Electronics",
+        "en": "IEEE Transactions on Industrial Electronics"
+      },
+      "details": {
+        "zh": "69(12), 13716-13726 (2022).",
+        "en": "69(12), 13716-13726 (2022)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/9673119/"
+    },
+    {
+      "id": "jiang-journal-2022-latent-variable-models-in-the-era-of-industrial-big-data-e",
+      "category": "journals",
+      "year": 2022,
+      "title": {
+        "zh": "Latent variable models in the era of industrial big data: Extension and beyond",
+        "en": "Latent variable models in the era of industrial big data: Extension and beyond"
+      },
+      "authors": {
+        "zh": "X Kong, X Jiang, B Zhang, J Yuan, Z Ge",
+        "en": "X Kong, X Jiang, B Zhang, J Yuan, Z Ge"
+      },
+      "venue": {
+        "zh": "Annual Reviews in Control",
+        "en": "Annual Reviews in Control"
+      },
+      "details": {
+        "zh": "54, 167-199 (2022).",
+        "en": "54, 167-199 (2022)."
+      },
+      "url": "https://www.sciencedirect.com/science/article/pii/S1367578822000992"
+    },
+    {
+      "id": "jiang-journal-2021-information-fingerprint-for-secure-industrial-big-data-ana",
+      "category": "journals",
+      "year": 2021,
+      "title": {
+        "zh": "Information fingerprint for secure industrial big data analytics",
+        "en": "Information fingerprint for secure industrial big data analytics"
+      },
+      "authors": {
+        "zh": "X Jiang, Z Ge",
+        "en": "X Jiang, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Industrial Informatics",
+        "en": "IEEE Transactions on Industrial Informatics"
+      },
+      "details": {
+        "zh": "18(4), 2641-2650 (2021).",
+        "en": "18(4), 2641-2650 (2021)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/9511842/"
+    },
+    {
+      "id": "jiang-journal-2021-augmented-multidimensional-convolutional-neural-network-fo",
+      "category": "journals",
+      "year": 2021,
+      "title": {
+        "zh": "Augmented multidimensional convolutional neural network for industrial soft sensing",
+        "en": "Augmented multidimensional convolutional neural network for industrial soft sensing"
+      },
+      "authors": {
+        "zh": "X Jiang, Z Ge",
+        "en": "X Jiang, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Instrumentation and Measurement",
+        "en": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      "details": {
+        "zh": "70, 1-10 (2021).",
+        "en": "70, 1-10 (2021)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/9415737/"
+    },
+    {
+      "id": "jiang-journal-2020-weakly-supervised-multilayer-perceptron-for-industrial-fau",
+      "category": "journals",
+      "year": 2020,
+      "title": {
+        "zh": "Weakly supervised multilayer perceptron for industrial fault classification with inaccurate and incomplete labels",
+        "en": "Weakly supervised multilayer perceptron for industrial fault classification with inaccurate and incomplete labels"
+      },
+      "authors": {
+        "zh": "S Liao, X Jiang, Z Ge",
+        "en": "S Liao, X Jiang, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Automation Science and Engineering",
+        "en": "IEEE Transactions on Automation Science and Engineering"
+      },
+      "details": {
+        "zh": "19(2), 1192-1201 (2020).",
+        "en": "19(2), 1192-1201 (2020)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/9307232/"
+    },
+    {
+      "id": "jiang-conference-2020-a-spatial-information-based-semi-supervised-soft-sensor-fo",
+      "category": "conferences",
+      "year": 2020,
+      "title": {
+        "zh": "A spatial-information-based semi-supervised soft sensor for f-CaO content prediction in cement industry",
+        "en": "A spatial-information-based semi-supervised soft sensor for f-CaO content prediction in cement industry"
+      },
+      "authors": {
+        "zh": "X Jiang, L Yao, G Huang, J Qian, B Shen, L Xu, Z Ge",
+        "en": "X Jiang, L Yao, G Huang, J Qian, B Shen, L Xu, Z Ge"
+      },
+      "venue": {
+        "zh": "2020 IEEE 9th Data Driven Control and Learning Systems Conference (DDCLS)",
+        "en": "2020 IEEE 9th Data Driven Control and Learning Systems Conference (DDCLS)"
+      },
+      "details": {
+        "zh": "898-905 (2020).",
+        "en": "898-905 (2020)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/9275121/"
+    },
+    {
+      "id": "jiang-journal-2020-virtual-sensing-f-cao-content-of-cement-clinker-based-on-i",
+      "category": "journals",
+      "year": 2020,
+      "title": {
+        "zh": "Virtual sensing f-CaO content of cement clinker based on incremental deep dynamic features extracting and transferring model",
+        "en": "Virtual sensing f-CaO content of cement clinker based on incremental deep dynamic features extracting and transferring model"
+      },
+      "authors": {
+        "zh": "L Yao, X Jiang, G Huang, J Qian, B Shen, L Xu, Z Ge",
+        "en": "L Yao, X Jiang, G Huang, J Qian, B Shen, L Xu, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Instrumentation and Measurement",
+        "en": "IEEE Transactions on Instrumentation and Measurement"
+      },
+      "details": {
+        "zh": "70, 1-10 (2020).",
+        "en": "70, 1-10 (2020)."
+      },
+      "url": "https://ieeexplore.ieee.org/document/9151207"
+    },
+    {
+      "id": "jiang-journal-2020-data-augmentation-classifier-for-imbalanced-fault-classifi",
+      "category": "journals",
+      "year": 2020,
+      "title": {
+        "zh": "Data augmentation classifier for imbalanced fault classification",
+        "en": "Data augmentation classifier for imbalanced fault classification"
+      },
+      "authors": {
+        "zh": "X Jiang, Z Ge",
+        "en": "X Jiang, Z Ge"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Automation Science and Engineering",
+        "en": "IEEE Transactions on Automation Science and Engineering"
+      },
+      "details": {
+        "zh": "18(3), 1206-1217 (2020).",
+        "en": "18(3), 1206-1217 (2020)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/9115249/"
+    },
+    {
+      "id": "jiang-conference-2019-numerical-simulation-and-neural-network-study-using-an-ups",
+      "category": "conferences",
+      "year": 2019,
+      "title": {
+        "zh": "Numerical simulation and neural network study using an upstream cylinder for flow control of an airfoil",
+        "en": "Numerical simulation and neural network study using an upstream cylinder for flow control of an airfoil"
+      },
+      "authors": {
+        "zh": "M Zhang, ZC Zheng, Y Liu, X Jiang",
+        "en": "M Zhang, ZC Zheng, Y Liu, X Jiang"
+      },
+      "venue": {
+        "zh": "Fluids Engineering Division Summer Meeting",
+        "en": "Fluids Engineering Division Summer Meeting"
+      },
+      "details": {
+        "zh": "59032, V002T02A045 (2019).",
+        "en": "59032, V002T02A045 (2019)."
+      },
+      "url": "https://asmedigitalcollection.asme.org/FEDSM/proceedings-abstract/AJKFluids2019/V002T02A045/1069166"
+    },
+    {
+      "id": "jiang-journal-2017-an-embedded-cloud-database-service-method-for-distributed",
+      "category": "journals",
+      "year": 2017,
+      "title": {
+        "zh": "An embedded cloud database service method for distributed industry monitoring",
+        "en": "An embedded cloud database service method for distributed industry monitoring"
+      },
+      "authors": {
+        "zh": "DP Tan, L Li, YL Zhu, S Zheng, HJ Ruan, XY Jiang",
+        "en": "DP Tan, L Li, YL Zhu, S Zheng, HJ Ruan, XY Jiang"
+      },
+      "venue": {
+        "zh": "IEEE Transactions on Industrial Informatics",
+        "en": "IEEE Transactions on Industrial Informatics"
+      },
+      "details": {
+        "zh": "14(7), 2881-2893 (2017).",
+        "en": "14(7), 2881-2893 (2017)."
+      },
+      "url": "https://ieeexplore.ieee.org/abstract/document/8110714/"
+    },
+    {
+      "id": "jiang-conference-2023-heterogeneous-federated-learning-for-multi-center-ophthalm",
+      "category": "conferences",
+      "year": 2023,
+      "title": {
+        "zh": "Heterogeneous Federated Learning for Multi-Center Ophthalmic Disease Diagnosis",
+        "en": "Heterogeneous Federated Learning for Multi-Center Ophthalmic Disease Diagnosis"
+      },
+      "authors": {
+        "zh": "A Gu, X Jiang, Z Gao, K Jin, J Ye, Z Ge",
+        "en": "A Gu, X Jiang, Z Gao, K Jin, J Ye, Z Ge"
+      },
+      "venue": {
+        "zh": "Available at SSRN 4517055",
+        "en": "Available at SSRN 4517055"
+      },
+      "details": {
+        "zh": "(2023).",
+        "en": "(2023)."
+      },
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4517055"
+    },
     {
       "id": "journal-2026-zhang-dhrl-fleet-maintenance",
       "category": "journals",

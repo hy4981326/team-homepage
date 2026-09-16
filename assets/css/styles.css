@@ -3280,20 +3280,24 @@ h2 {
 
 .brand-logo-placeholder {
   display: grid;
-  flex: 0 0 86px;
-  width: 86px;
-  height: 86px;
+  flex: 0 0 138px;
+  width: 138px;
+  height: 138px;
+  padding: 0;
   place-items: center;
-  border: 2px solid rgba(255, 255, 255, .86);
-  color: rgba(255, 255, 255, .86);
-  background: rgba(4, 38, 59, .24);
-  box-shadow: 0 8px 28px rgba(0, 22, 36, .18);
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: .12em;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  overflow: hidden;
+  transform: translate(12px, 6px);
+}
+
+.brand-logo-placeholder img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 3px 6px rgba(0, 19, 38, .28));
 }
 
 .brand-name {
@@ -5336,7 +5340,7 @@ body.is-search-open {
     0 2px 8px rgba(31, 41, 55, .025);
 }
 
-.research-page-panel [data-journal-year-nav][hidden] {
+.research-page-panel [data-output-year-nav][hidden] {
   display: none !important;
 }
 
@@ -6104,9 +6108,9 @@ body.is-search-open {
   }
 
   .brand-logo-placeholder {
-    flex-basis: 72px;
-    width: 72px;
-    height: 72px;
+    flex-basis: 108px;
+    width: 108px;
+    height: 108px;
   }
 
   .brand-name-cn {
@@ -6297,10 +6301,9 @@ body.is-search-open {
   }
 
   .brand-logo-placeholder {
-    flex-basis: 58px;
-    width: 58px;
-    height: 58px;
-    font-size: 10px;
+    flex-basis: 82px;
+    width: 82px;
+    height: 82px;
   }
 
   .brand-name-cn {

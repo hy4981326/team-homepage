@@ -20,7 +20,7 @@
       fetchError: '科研成果加载失败，请稍后刷新重试。'
     },
     en: {
-      journals: 'Journal Articles',
+      journals: 'Journal Papers',
       conferences: 'Conferences & Other Publications',
       books: 'Books',
       patents: 'Invention Patents and Software Copyrights',
@@ -146,36 +146,50 @@
     return row;
   }
 
-  function renderJournals(section, entries) {
-    const appendYears = (parent, groupedEntries) => {
-      const years = [...new Set(groupedEntries.map((entry) => entry.year))].sort((a, b) => b - a);
-      years.forEach((year) => {
-        const heading = document.createElement('h3');
-        heading.className = 'publication-year';
-        heading.textContent = String(year);
-        parent.append(heading, createList(groupedEntries.filter((entry) => entry.year === year), true));
-      });
-    };
+  const yearRanges = [
+    ['2026', (year) => year === 2026],
+    ['2025', (year) => year === 2025],
+    ['2024', (year) => year === 2024],
+    ['2023-2018', (year) => year >= 2018 && year <= 2023],
+    ['2017-2013', (year) => year >= 2013 && year <= 2017]
+  ];
 
+  function appendYears(parent, groupedEntries) {
+    const years = [...new Set(groupedEntries.map((entry) => entry.year))].sort((a, b) => b - a);
+    years.forEach((year) => {
+      const heading = document.createElement('h3');
+      heading.className = 'publication-year';
+      heading.textContent = String(year);
+      parent.append(heading, createList(groupedEntries.filter((entry) => entry.year === year), true));
+    });
+  }
+
+  function renderYearRanges(section, entries, category) {
+    yearRanges.forEach(([range, includesYear]) => {
+      const group = document.createElement('div');
+      group.className = 'publication-year-group';
+      group.id = `achievement-${category}-${range}`;
+      appendYears(group, entries.filter((entry) => includesYear(Number(entry.year))));
+      section.append(group);
+    });
+  }
+
+  function renderJournals(section, entries) {
     if (site.prefix !== 'achievement') {
       appendYears(section, entries);
       return;
     }
 
-    const ranges = [
-      ['2026', (year) => year === 2026],
-      ['2025', (year) => year === 2025],
-      ['2024', (year) => year === 2024],
-      ['2023-2018', (year) => year >= 2018 && year <= 2023],
-      ['2017-2013', (year) => year >= 2013 && year <= 2017]
-    ];
-    ranges.forEach(([range, includesYear]) => {
-      const group = document.createElement('div');
-      group.className = 'publication-year-group';
-      group.id = `achievement-journals-${range}`;
-      appendYears(group, entries.filter((entry) => includesYear(Number(entry.year))));
-      section.append(group);
-    });
+    renderYearRanges(section, entries, 'journals');
+  }
+
+  function renderConferences(section, entries) {
+    if (site.prefix !== 'achievement') {
+      section.append(createList(entries));
+      return;
+    }
+
+    renderYearRanges(section, entries, 'conferences');
   }
 
   function renderPatents(section, entries) {
@@ -199,7 +213,7 @@
     categories.forEach((category) => {
       const targetId = `${site.prefix}-${category}`;
       const selector = site.prefix === 'achievement'
-        ? `[data-achievement-target="${targetId}"]`
+        ? `nav[aria-label] > [data-achievement-target="${targetId}"]`
         : `[data-publication-nav="${targetId}"]`;
       const control = document.querySelector(selector);
       const textTarget = control?.querySelector('span:last-child') || control;
@@ -234,6 +248,8 @@
         section.append(status(labels.empty));
       } else if (category === 'journals') {
         renderJournals(section, categoryEntries);
+      } else if (category === 'conferences') {
+        renderConferences(section, categoryEntries);
       } else if (category === 'patents') {
         renderPatents(section, categoryEntries);
       } else {
