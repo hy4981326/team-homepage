@@ -2760,7 +2760,7 @@
           researchLink: '具体研究内容详见科研方向',
           programs: '招生专业',
           programItems: [
-            ['学术型博士', '安全科学与工程（0837，方向：可靠性系统工程）、控制科学与工程（0811，方向：工业互联网与知识驱动自动化）'],
+            ['学术型博士', '安全科学与工程（0837，方向：可靠性系统工程）、控制科学与工程（0811，方向：工业互联网与知识驱动自动化）、低空智能运载工程（9904，方向：低空安全保障技术）'],
             ['专业型博士', '电子信息（0854）、机械（0855）'],
             ['学术型硕士', '控制科学与工程（0811）、低空智能运载工程（9904，方向：低空安全保障技术）'],
             ['专业型硕士', '电子信息（0854）、机械（0855）、交通运输（0861）']
@@ -2775,11 +2775,32 @@
           requirementIntro: '为确保研究生培养质量与科研项目顺利推进，实验室对学生提出以下基本要求：',
           requirementLink: '详见招生简介'
         };
+    const escapeHtml = (value) => String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+    const formatProgramValue = (value) => {
+      if (isEnglish) return escapeHtml(value);
+      return value.split('、').map((item) => {
+        const trimmed = item.trim();
+        const directionMatch = trimmed.match(/^(.+?)（([^，）]+)，方向：(.+)）$/);
+        if (!directionMatch) {
+          return `<span class="recruitment-program-major">${escapeHtml(trimmed)}</span>`;
+        }
+        const [, name, code, direction] = directionMatch;
+        return [
+          `<span class="recruitment-program-major">${escapeHtml(name)}（${escapeHtml(code)}）</span>`,
+          `<span class="recruitment-program-direction">方向：${escapeHtml(direction)}</span>`
+        ].join('');
+      }).join('');
+    };
     const programsHtml = `
       <section class="recruitment-admission-programs">
       <h2>${labels.programs}</h2>
       <dl class="recruitment-programs">
-        ${labels.programItems.map(([term, value]) => `<div><dt>${term}</dt><dd>${value}</dd></div>`).join('')}
+        ${labels.programItems.map(([term, value]) => `<div><dt>${term}</dt><dd>${formatProgramValue(value)}</dd></div>`).join('')}
       </dl>
       </section>
     `;

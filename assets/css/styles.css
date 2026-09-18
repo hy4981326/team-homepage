@@ -2445,6 +2445,83 @@ h2 {
   font-weight: 650;
 }
 
+.publication-book-cover {
+  width: min(620px, 100%);
+  margin: 18px 0 0;
+}
+
+.publication-book-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  box-shadow: 0 14px 34px rgb(15 23 42 / 14%);
+}
+
+.publication-inline-image-link {
+  display: inline;
+  margin-left: 4px;
+  padding: 0;
+  border: 0;
+  color: var(--blue);
+  background: transparent;
+  font: inherit;
+  font-weight: 700;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.publication-inline-image-link:hover,
+.publication-inline-image-link:focus-visible {
+  text-decoration: underline;
+}
+
+.publication-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgb(15 23 42 / 74%);
+}
+
+.publication-lightbox[hidden] {
+  display: none;
+}
+
+.publication-lightbox-open {
+  overflow: hidden;
+}
+
+.publication-lightbox-dialog {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  width: min(760px, 92vw);
+  max-height: 92vh;
+  padding: 16px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 24px 80px rgb(0 0 0 / 28%);
+}
+
+.publication-lightbox img {
+  display: block;
+  max-width: 100%;
+  max-height: 72vh;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.publication-lightbox p {
+  margin: 12px 0 0;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.55;
+  text-align: center;
+}
+
 .section-dark {
   color: var(--text);
   background: var(--white);
@@ -5016,6 +5093,20 @@ body.is-search-open {
   color: #526b78;
   font-size: 15.8px;
   line-height: 1.85;
+}
+
+.recruitment-program-major,
+.recruitment-program-direction {
+  display: block;
+}
+
+.recruitment-program-major:not(:first-child) {
+  margin-top: 8px;
+}
+
+.recruitment-program-direction {
+  padding-left: 1.5em;
+  color: #617987;
 }
 
 .recruitment-closing {

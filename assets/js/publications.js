@@ -16,6 +16,8 @@
       patents: '发明专利与软件著作权',
       empty: '暂无内容。',
       link: '[链接]',
+      imageLink: '[图片]',
+      viewImage: '查看大图',
       fileError: '无法从本地文件直接加载科研成果。请在项目根目录运行 python3 -m http.server 8000，再通过 http://localhost:8000/ 预览。',
       fetchError: '科研成果加载失败，请稍后刷新重试。'
     },
@@ -26,6 +28,8 @@
       patents: 'Invention Patents and Software Copyrights',
       empty: 'No entries yet.',
       link: '[Link]',
+      imageLink: '[Image]',
+      viewImage: 'View image',
       fileError: 'Research outputs cannot be loaded directly from a local file. Run python3 -m http.server 8000 in the project root, then preview at http://localhost:8000/.',
       fetchError: 'Research outputs could not be loaded. Please refresh and try again.'
     }
@@ -53,6 +57,84 @@
     } catch {
       return '';
     }
+  }
+
+  function mediaUrl(value) {
+    if (!value) return '';
+    try {
+      const url = new URL(value, dataUrl);
+      return ['http:', 'https:'].includes(url.protocol) ? url.href : '';
+    } catch {
+      return '';
+    }
+  }
+
+  function imageAlt(media, fallback = '') {
+    return localized(media?.alt) || localized(media?.title) || fallback;
+  }
+
+  let lightbox = null;
+  function closeLightbox() {
+    if (!lightbox) return;
+    lightbox.hidden = true;
+    lightbox.querySelector('img').removeAttribute('src');
+    document.body.classList.remove('publication-lightbox-open');
+  }
+
+  function openLightbox(src, captionText) {
+    if (!lightbox) {
+      lightbox = document.createElement('div');
+      lightbox.className = 'publication-lightbox';
+      lightbox.hidden = true;
+      lightbox.innerHTML = `
+        <div class="publication-lightbox-dialog" role="dialog" aria-modal="true" tabindex="-1">
+          <img alt="">
+          <p></p>
+        </div>
+      `;
+      lightbox.addEventListener('click', (event) => {
+        if (event.target === lightbox) closeLightbox();
+      });
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') closeLightbox();
+      });
+      document.body.append(lightbox);
+    }
+
+    const image = lightbox.querySelector('img');
+    const caption = lightbox.querySelector('p');
+    image.src = src;
+    image.alt = captionText;
+    caption.textContent = captionText;
+    lightbox.hidden = false;
+    document.body.classList.add('publication-lightbox-open');
+    lightbox.querySelector('.publication-lightbox-dialog').focus();
+  }
+
+  function createBookImage(entry) {
+    const src = mediaUrl(entry.image?.src);
+    if (!src) return null;
+    const figure = document.createElement('figure');
+    figure.className = 'publication-book-cover';
+    const image = document.createElement('img');
+    image.src = src;
+    image.alt = imageAlt(entry.image, localized(entry.title));
+    image.loading = 'lazy';
+    figure.append(image);
+    return figure;
+  }
+
+  function createInlineImageLink(entry) {
+    const src = mediaUrl(entry.image?.src);
+    const caption = imageAlt(entry.image, localized(entry.title));
+    if (!src || !caption) return null;
+    const button = document.createElement('button');
+    button.className = 'publication-inline-image-link';
+    button.type = 'button';
+    button.textContent = labels.imageLink;
+    button.setAttribute('aria-label', `${labels.viewImage}: ${caption}`);
+    button.addEventListener('click', () => openLightbox(src, caption));
+    return button;
   }
 
   function status(message, isError = false) {
@@ -108,7 +190,11 @@
     const authorPrefix = ['books', 'patents'].includes(entry.category)
       ? localized(entry.authors)
       : '';
-    title.textContent = [authorPrefix, localized(entry.title)].filter(Boolean).join(' ');
+    title.append(document.createTextNode([authorPrefix, localized(entry.title)].filter(Boolean).join(' ')));
+    if (entry.category === 'patents') {
+      const imageLink = createInlineImageLink(entry);
+      if (imageLink) title.append(document.createTextNode(' '), imageLink);
+    }
     item.append(title);
 
     const meta = document.createElement('span');
@@ -116,6 +202,10 @@
     const metaEntry = authorPrefix ? { ...entry, authors: { zh: '', en: '' } } : entry;
     appendMeta(meta, metaEntry);
     if (meta.childNodes.length) item.append(meta);
+    if (entry.category === 'books') {
+      const bookImage = createBookImage(entry);
+      if (bookImage) item.append(bookImage);
+    }
     return item;
   }
 

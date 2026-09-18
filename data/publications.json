@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-09-18",
   "entries": [
     {
       "id": "jiang-journal-2026-clari-constrained-reflective-llm-inference-for-few-shot-so",
@@ -2046,7 +2046,14 @@
         "zh": "2025.6，ISBN 978-7-121-24762-0.",
         "en": "June 2025. ISBN 978-7-121-24762-0."
       },
-      "url": ""
+      "url": "",
+      "image": {
+        "src": "../image/Book.jpg",
+        "alt": {
+          "zh": "《智预——装备故障预测与健康管理：全寿命周期解读与实践》书影",
+          "en": "Book cover of Intelligent Prognostics"
+        }
+      }
     },
     {
       "id": "patent-2025-digital-twin-phm-training-data",
@@ -2072,7 +2079,80 @@
         "zh": "申请号 202511156367.7，2025.9.",
         "en": "Application No. 202511156367.7, September 2025."
       },
-      "url": ""
+      "url": "",
+      "image": {
+        "src": "../image/基于数字孪生的PHM模型训练数据生成方法及设备.png",
+        "alt": {
+          "zh": "基于数字孪生的PHM模型训练数据生成方法及设备专利图片",
+          "en": "Patent image for PHM model training data generation based on digital twins"
+        }
+      }
+    },
+    {
+      "id": "patent-2025-aircraft-phm-virtual-physical-platform",
+      "category": "patents",
+      "subtype": {
+        "zh": "国家发明专利",
+        "en": "National Invention Patents"
+      },
+      "year": 2025,
+      "title": {
+        "zh": "航空装备PHM虚实一体化实验平台及实验方法.",
+        "en": "Aviation Equipment PHM Virtual-Physical Integrated Experimental Platform and Method."
+      },
+      "authors": {
+        "zh": "胡杨，韩丹阳，苏迪 等.",
+        "en": "Hu, Y., Han, D., Su, D. et al."
+      },
+      "venue": {
+        "zh": "",
+        "en": ""
+      },
+      "details": {
+        "zh": "申请号 202511272006.9，2025.9.",
+        "en": "Application No. 202511272006.9, September 2025."
+      },
+      "url": "",
+      "image": {
+        "src": "../image/航空装备PHM虚实一体化实验平台及实验方法.png",
+        "alt": {
+          "zh": "航空装备PHM虚实一体化实验平台及实验方法专利图片",
+          "en": "Patent image for aviation equipment PHM virtual-physical integrated experimental platform and method"
+        }
+      }
+    },
+    {
+      "id": "patent-2025-cross-modal-civil-aircraft-phm-modeling",
+      "category": "patents",
+      "subtype": {
+        "zh": "国家发明专利",
+        "en": "National Invention Patents"
+      },
+      "year": 2025,
+      "title": {
+        "zh": "基于跨模态耦合的民机PHM模型建模方法、介质和设备.",
+        "en": "Civil Aircraft PHM Model Construction Method, Medium, and Equipment Based on Cross-Modal Coupling."
+      },
+      "authors": {
+        "zh": "胡杨，魏芷寰，韩丹阳 等.",
+        "en": "Hu, Y., Wei, Z., Han, D. et al."
+      },
+      "venue": {
+        "zh": "",
+        "en": ""
+      },
+      "details": {
+        "zh": "申请号 202511269707.7，2025.9.",
+        "en": "Application No. 202511269707.7, September 2025."
+      },
+      "url": "",
+      "image": {
+        "src": "../image/基于跨模态耦合的民机PHM模型建模方法、介质和设备.png",
+        "alt": {
+          "zh": "基于跨模态耦合的民机PHM模型建模方法、介质和设备专利图片",
+          "en": "Patent image for civil aircraft PHM model construction based on cross-modal coupling"
+        }
+      }
     },
     {
       "id": "patent-2024-aircraft-phm-indicators",
