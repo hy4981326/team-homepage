@@ -2046,12 +2046,34 @@
         "zh": "2025.6，ISBN 978-7-121-24762-0.",
         "en": "June 2025. ISBN 978-7-121-24762-0."
       },
+      "url": ""
+    },
+    {
+      "id": "book-2025-aviation-equipment-support-modeling-simulation",
+      "category": "books",
+      "year": 2025,
+      "title": {
+        "zh": "《航空装备保障建模仿真技术与应用》",
+        "en": "Modeling and Simulation Technology and Application of Aviation Equipment Support"
+      },
+      "authors": {
+        "zh": "苗学问、袁志芳、胡杨、李牧东、何庆杰 著.",
+        "en": "Miao, X.; Yuan, Z.; Hu, Y.; Li, M.; He, Q."
+      },
+      "venue": {
+        "zh": "国防工业出版社",
+        "en": "National Defense Industry Press"
+      },
+      "details": {
+        "zh": "ISBN 978-7-118-13784-2.",
+        "en": "ISBN 978-7-118-13784-2."
+      },
       "url": "",
       "image": {
         "src": "../image/Book.jpg",
         "alt": {
-          "zh": "《智预——装备故障预测与健康管理：全寿命周期解读与实践》书影",
-          "en": "Book cover of Intelligent Prognostics"
+          "zh": "《航空装备保障建模仿真技术与应用》书影",
+          "en": "Book cover of Modeling and Simulation Technology and Application of Aviation Equipment Support"
         }
       }
     },

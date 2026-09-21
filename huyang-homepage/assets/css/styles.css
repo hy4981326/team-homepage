@@ -50,11 +50,29 @@ a {
   vertical-align: top;
 }
 
+.name-row {
+  display: flex;
+  align-items: baseline;
+  gap: 145px;
+}
+
 .identity h1 {
   margin: 0 0 10px;
   font-size: 32px;
   font-weight: 700;
   line-height: 1.08;
+}
+
+.language-switch {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.language-switch span {
+  color: #000;
 }
 
 .name-en {
