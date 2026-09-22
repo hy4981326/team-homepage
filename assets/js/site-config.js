@@ -170,6 +170,16 @@
       page: 'culture',
       cultureSection: 'team'
     },
+    'person-rui-kang': {
+      page: 'faculty',
+      view: 'faculty',
+      member: 'person-rui-kang'
+    },
+    'person-enrico-zio': {
+      page: 'faculty',
+      view: 'faculty',
+      member: 'person-enrico-zio'
+    },
     'person-yang-hu': {
       page: 'faculty',
       view: 'faculty',

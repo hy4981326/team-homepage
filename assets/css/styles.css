@@ -4288,9 +4288,30 @@ body.is-search-open {
   border: 1px solid #dce5ea;
 }
 
-.personnel-overview-section[data-personnel-overview-group="faculty"] .personnel-overview-card:first-child {
+.personnel-overview-section[data-personnel-overview-group="faculty"] .personnel-overview-card:nth-child(3) {
   grid-column: 1 / -1;
   width: calc((100% - 22px) / 2);
+}
+
+[data-personnel-overview-member="person-rui-kang"] img,
+[data-personnel-overview-member="person-enrico-zio"] img,
+#person-rui-kang .personnel-photo,
+#person-enrico-zio .personnel-photo {
+  object-fit: cover;
+}
+
+[data-personnel-overview-member="person-rui-kang"] img {
+  object-position: center 16%;
+}
+
+#person-rui-kang .personnel-photo {
+  object-position: center 14%;
+}
+
+[data-personnel-overview-member="person-enrico-zio"] img {
+  padding: 0;
+  object-fit: cover;
+  object-position: center 8%;
 }
 
 .personnel-overview-card h3 {
@@ -6581,7 +6602,7 @@ body.is-search-open {
     height: 106px;
   }
 
-  .personnel-overview-section[data-personnel-overview-group="faculty"] .personnel-overview-card:first-child {
+  .personnel-overview-section[data-personnel-overview-group="faculty"] .personnel-overview-card:nth-child(3) {
     width: 100%;
   }
 

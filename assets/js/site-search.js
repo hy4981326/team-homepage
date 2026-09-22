@@ -28,7 +28,9 @@
   const getStaticEntries = (isEnglish) => [
     ['home', isEnglish ? 'Home' : '首页', isEnglish ? 'Laboratory homepage, news, notices, research directions, profile' : '实验室首页、新闻动态、通知公告、科研方向、中心简介', 'home'],
     ['team', isEnglish ? 'Center Profile' : '中心简介', isEnglish ? 'Sino-Italian Joint Laboratory, overview, platform, mission' : '中意健康管理与智能维修实验室、中心概况、平台介绍', 'team'],
-    ['faculty', isEnglish ? 'Faculty' : '师资队伍', isEnglish ? 'Yang Hu, Yang Li, Xiaoyu Jiang, postdoctoral researchers' : '胡杨、李洋、江肖禹、博士后、教师团队', 'faculty-overview'],
+    ['faculty', isEnglish ? 'Faculty' : '师资队伍', isEnglish ? 'Rui Kang, Enrico Zio, Yang Hu, Yang Li, Xiaoyu Jiang, postdoctoral researchers' : '康锐、Enrico Zio、胡杨、李洋、江肖禹、博士后、教师团队', 'faculty-overview'],
+    ['rui-kang', isEnglish ? 'Rui Kang' : '康锐', isEnglish ? 'Chinese Director, Professor, doctoral supervisor, belief reliability' : '中方主任、教授、博士生导师、确信可靠性、可靠性系统工程', 'person-rui-kang'],
+    ['enrico-zio', 'Enrico Zio', isEnglish ? 'Italian Director, professor, reliability, risk, resilience' : '意方主任、教授、可靠性、风险、安全、韧性', 'person-enrico-zio'],
     ['yang-hu', isEnglish ? 'Yang Hu' : '胡杨', isEnglish ? 'Associate Research Fellow, doctoral supervisor, PHM, digital twin' : '副研究员、博士生导师、PHM、数字孪生、智能运维', 'person-yang-hu'],
     ['yang-li', isEnglish ? 'Yang Li' : '李洋', isEnglish ? 'Associate Professor, master’s supervisor, reliability, fault diagnosis' : '副教授、硕士生导师、可靠性、故障诊断、容错', 'person-yang-li'],
     ['xiaoyu-jiang', isEnglish ? 'Xiaoyu Jiang' : '江肖禹', isEnglish ? 'Associate Research Fellow, machine learning, agents, industrial AI' : '副研究员、硕士生导师、机器学习、大模型、智能体、工业智能', 'person-xiaoyu-jiang'],

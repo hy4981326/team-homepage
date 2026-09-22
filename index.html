@@ -8,16 +8,16 @@
   <link rel="preload" href="assets/fonts/ZhiMangXing-BrandSubset.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="assets/fonts/CormorantGaramond-BrandSubset.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="assets/fonts/MaShanZheng-HomeTitles.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="assets/css/styles.css?v=40">
+  <link rel="stylesheet" href="assets/css/styles.css?v=41">
   <script src="assets/js/publications.js?v=3" defer></script>
   <script src="assets/js/content-data.js?v=9" defer></script>
-  <script src="assets/js/site-config.js" defer></script>
-  <script src="assets/js/site-search.js" defer></script>
+  <script src="assets/js/site-config.js?v=2" defer></script>
+  <script src="assets/js/site-search.js?v=2" defer></script>
   <script src="assets/js/home-interactions.js?v=40" defer></script>
   <script src="assets/js/site-navigation.js" defer></script>
   <script src="assets/js/scroll-reveal.js?v=2" defer></script>
   <script src="assets/js/research-topics.js?v=3" defer></script>
-  <script src="assets/js/main.js?v=24" defer></script>
+  <script src="assets/js/main.js?v=25" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -380,6 +380,8 @@
                   <span>教师团队</span><span class="personnel-side-symbol" aria-hidden="true"></span>
                 </button>
                 <div class="personnel-side-members">
+                  <button type="button" data-personnel-member="person-rui-kang" data-personnel-member-view="faculty">康锐</button>
+                  <button type="button" data-personnel-member="person-enrico-zio" data-personnel-member-view="faculty">Enrico Zio</button>
                   <button type="button" data-personnel-member="person-yang-hu" data-personnel-member-view="faculty">胡杨</button>
                   <button type="button" data-personnel-member="person-yang-li" data-personnel-member-view="faculty">李洋</button>
                   <button type="button" data-personnel-member="person-xiaoyu-jiang" data-personnel-member-view="faculty">江肖禹</button>
@@ -412,6 +414,16 @@
             <section class="personnel-view personnel-overview is-active" data-personnel-panel="overview">
               <section class="personnel-overview-section" data-personnel-overview-group="faculty">
                 <div class="personnel-overview-grid">
+                  <article class="personnel-overview-card" data-personnel-overview-member="person-rui-kang" data-personnel-overview-view="faculty">
+                    <img src="image/Rui Kang.png" alt="康锐老师" loading="lazy">
+                    <h3>康锐 <span>Rui Kang</span></h3>
+                    <p>中方主任 / 教授 / 博士生导师</p>
+                  </article>
+                  <article class="personnel-overview-card" data-personnel-overview-member="person-enrico-zio" data-personnel-overview-view="faculty">
+                    <img src="image/Enrico-Zio.jpg" alt="Enrico Zio教授" loading="lazy">
+                    <h3>Enrico Zio</h3>
+                    <p>意方主任 / 教授 / 博士生导师</p>
+                  </article>
                   <article class="personnel-overview-card" data-personnel-overview-member="person-yang-hu" data-personnel-overview-view="faculty">
                     <img src="image/Yang Hu.png" alt="胡杨老师" loading="lazy">
                     <h3>胡杨 <span>Yang Hu</span></h3>
@@ -460,6 +472,60 @@
           <section class="personnel-section personnel-detail-view" id="lab-faculty" data-personnel-panel="faculty">
             <h2 class="personnel-section-title">教师团队</h2>
             <div class="personnel-list">
+              <article class="personnel-card" id="person-rui-kang">
+                <img class="personnel-photo" src="image/Rui Kang.png" alt="康锐老师" loading="lazy">
+                <div>
+                  <p class="personnel-role">中方主任 / 教授 / 博士生导师</p>
+                  <h3 class="personnel-name">康锐 <span>Rui Kang</span></h3>
+                  <p class="personnel-research"><strong>研究方向：</strong>确信可靠性理论与应用、复杂系统可靠性建模、可靠性系统工程。</p>
+                  <p class="personnel-email"><strong>邮箱：</strong>kangrui@buaa.edu.cn</p>
+                  <div class="personnel-links">
+                    <a class="personnel-link-primary" href="https://shi.buaa.edu.cn/kangrui/zh_CN/index.htm" target="_blank" rel="noopener">北航教师主页</a>
+                    <a href="https://scholar.google.com/citations?user=CLuaE1YAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+                  </div>
+                </div>
+                <div class="personnel-profile-sections">
+                  <section class="personnel-profile-section">
+                    <h4>个人简介</h4>
+                    <p>康锐，北京航空航天大学教授、博士生导师，2023年9月起兼任杭州市北京航空航天大学国际创新学院智慧民航科创中心首席科学家。长期从事可靠性理论与应用研究，创立确信可靠性理论。</p>
+                  </section>
+                  <section class="personnel-profile-section">
+                    <h4>研究方向</h4>
+                    <p>主要研究确信可靠性理论与应用、信息物理系统可靠性建模与仿真、可靠性系统工程方法论，以及面向复杂工程系统的可靠性分析、评价与优化。</p>
+                  </section>
+                  <section class="personnel-profile-section">
+                    <h4>学术成果</h4>
+                    <p>曾担任国家重大基础研究项目首席科学家，现任中国指挥控制学会可靠性系统科学与工程专业委员会主任委员、中国MBSE联盟可靠性系统工程专业委员会主任委员。获国家科技进步二等奖2项、省部级科技进步一等奖3项、北京市高等教育教学成果二等奖2项，授权发明专利100余项，发表SCI论文100余篇。</p>
+                  </section>
+                </div>
+              </article>
+              <article class="personnel-card" id="person-enrico-zio">
+                <img class="personnel-photo" src="image/Enrico-Zio.jpg" alt="Enrico Zio教授" loading="lazy">
+                <div>
+                  <p class="personnel-role">意方主任 / 教授 / 博士生导师</p>
+                  <h3 class="personnel-name">Enrico Zio</h3>
+                  <p class="personnel-research"><strong>研究方向：</strong>复杂系统安全、可靠性与韧性，风险分析，人工智能在可靠性工程中的应用。</p>
+                  <p class="personnel-email"><strong>邮箱：</strong>enrico.zio@polimi.it</p>
+                  <div class="personnel-links">
+                    <a class="personnel-link-primary" href="https://www.energia.polimi.it/en/people/zio-enrico-2/" target="_blank" rel="noopener">米理教师主页</a>
+                    <a href="https://scholar.google.com/citations?user=Fz_uKmYAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">Google Scholar</a>
+                  </div>
+                </div>
+                <div class="personnel-profile-sections">
+                  <section class="personnel-profile-section">
+                    <h4>个人简介</h4>
+                    <p>Enrico Zio，意大利米兰理工大学能源系教授，同时任法国巴黎文理研究大学 Mines Paris-PSL 风险与危机研究中心教授。其教育背景涵盖米兰理工大学核工程、UCLA机械工程、MIT概率风险评估等方向。</p>
+                  </section>
+                  <section class="personnel-profile-section">
+                    <h4>研究方向</h4>
+                    <p>主要从事复杂系统安全、可靠性与韧性研究，面向能源、关键基础设施等场景开展风险分析、可靠性评估与韧性工程研究，也是将人工智能和演化算法用于风险与可靠性分析的先驱学者之一。</p>
+                  </section>
+                  <section class="personnel-profile-section">
+                    <h4>学术成果</h4>
+                    <p>发表国际期刊论文700余篇，出版著作10部，长期入选 Stanford 全球前2%科学家与 Clarivate 高被引科学家榜单。曾获 Humboldt Research Award、IEEE Fellow、International Society for Reliability and Safety Lifetime Achievement Award 等国际荣誉。</p>
+                  </section>
+                </div>
+              </article>
               <article class="personnel-card" id="person-yang-hu">
                 <img class="personnel-photo" src="image/Yang Hu.png" alt="胡杨老师" loading="lazy">
                 <div>

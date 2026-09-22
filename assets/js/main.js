@@ -214,7 +214,7 @@
     setText('.personnel-page-heading h1', 'Faculty');
     setText('[data-personnel-home]', 'Home');
     setText('[data-personnel-overview]', 'Faculty');
-    const personnelMemberNames = ['Yang Hu', 'Yang Li', 'Xiaoyu Jiang', 'Danyang Han', 'Di Su', 'Jiayu Wang', 'Zhenqin Yin'];
+    const personnelMemberNames = ['Rui Kang', 'Enrico Zio', 'Yang Hu', 'Yang Li', 'Xiaoyu Jiang', 'Danyang Han', 'Di Su', 'Jiayu Wang', 'Zhenqin Yin'];
     document.querySelectorAll('[data-personnel-member]').forEach((button, index) => {
       button.textContent = personnelMemberNames[index] || button.textContent;
     });
@@ -223,6 +223,8 @@
       heading.textContent = overviewSectionTitles[index] || heading.textContent;
     });
     const overviewPeople = [
+      ['Rui Kang', 'Chinese Director · Professor · Doctoral Supervisor'],
+      ['Enrico Zio', 'Italian Director · Professor · Doctoral Supervisor'],
       ['Yang Hu', 'Executive Director · Associate Research Fellow · Doctoral Supervisor'],
       ['Yang Li', 'Associate Professor · Master’s Supervisor'],
       ['Xiaoyu Jiang', 'Associate Research Fellow · Master’s Supervisor'],
@@ -261,6 +263,60 @@
       <section class="personnel-section personnel-detail-view" id="lab-faculty" data-personnel-panel="faculty">
         <h2 class="personnel-section-title">Faculty</h2>
         <div class="personnel-list">
+          <article class="personnel-card" id="person-rui-kang">
+            <img class="personnel-photo" src="image/Rui Kang.png" alt="Rui Kang" loading="lazy">
+            <div>
+              <p class="personnel-role">Chinese Director · Professor · Doctoral Supervisor</p>
+              <h3 class="personnel-name">Rui Kang</h3>
+              <p class="personnel-research"><strong>Research:</strong> Belief reliability theory and applications, reliability modeling of complex systems, and reliability systems engineering.</p>
+              <p class="personnel-email"><strong>Email:</strong> kangrui@buaa.edu.cn</p>
+              <div class="personnel-links">
+                <a class="personnel-link-primary" href="https://shi.buaa.edu.cn/kangrui/zh_CN/index.htm" target="_blank" rel="noopener">Beihang Profile</a>
+                <a href="https://scholar.google.com/citations?user=CLuaE1YAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+              </div>
+            </div>
+            <div class="personnel-profile-sections">
+              <section class="personnel-profile-section">
+                <h4>Biography</h4>
+                <p>Rui Kang is a Professor and Doctoral Supervisor at Beihang University. Since September 2023, he has also served as Chief Scientist of the Smart Civil Aviation Science and Technology Innovation Center at the Hangzhou International Innovation Institute of Beihang University. His long-term work focuses on reliability theory and applications, and he founded belief reliability theory.</p>
+              </section>
+              <section class="personnel-profile-section">
+                <h4>Research Interests</h4>
+                <p>His research interests include belief reliability theory and applications, cyber-physical system reliability modeling and simulation, reliability systems engineering methodology, and reliability analysis, assessment, and optimization for complex engineering systems.</p>
+              </section>
+              <section class="personnel-profile-section">
+                <h4>Academic Achievements</h4>
+                <p>He has served as Chief Scientist of a National Major Basic Research Program and currently chairs the Reliability System Science and Engineering Professional Committee of the Chinese Institute of Command and Control and the Reliability Systems Engineering Professional Committee of the China MBSE Alliance. His honors include two Second Prizes of the National Science and Technology Progress Award, three First Prizes of provincial and ministerial science and technology progress awards, and two Second Prizes of the Beijing Higher Education Teaching Achievement Award. He has received more than 100 authorized invention patents and published more than 100 SCI-indexed papers.</p>
+              </section>
+            </div>
+          </article>
+          <article class="personnel-card" id="person-enrico-zio">
+            <img class="personnel-photo" src="image/Enrico-Zio.jpg" alt="Enrico Zio" loading="lazy">
+            <div>
+              <p class="personnel-role">Italian Director · Professor · Doctoral Supervisor</p>
+              <h3 class="personnel-name">Enrico Zio</h3>
+              <p class="personnel-research"><strong>Research:</strong> Safety, reliability, and resilience of complex systems, risk analysis, and artificial intelligence for reliability engineering.</p>
+              <p class="personnel-email"><strong>Email:</strong> enrico.zio@polimi.it</p>
+              <div class="personnel-links">
+                <a class="personnel-link-primary" href="https://www.energia.polimi.it/en/people/zio-enrico-2/" target="_blank" rel="noopener">Polimi Profile</a>
+                <a href="https://scholar.google.com/citations?user=Fz_uKmYAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">Google Scholar</a>
+              </div>
+            </div>
+            <div class="personnel-profile-sections">
+              <section class="personnel-profile-section">
+                <h4>Biography</h4>
+                <p>Enrico Zio is Full Professor at the Department of Energy of Politecnico di Milano and Full Professor at the Centre for Research on Risk and Crises at Mines Paris - PSL University. His education spans nuclear engineering at Politecnico di Milano, mechanical engineering at UCLA, and probabilistic risk assessment at MIT.</p>
+              </section>
+              <section class="personnel-profile-section">
+                <h4>Research Interests</h4>
+                <p>His research focuses on safety, reliability, and resilience of complex systems, with applications in energy and critical infrastructure. He is also recognized as one of the pioneers in applying artificial intelligence and evolutionary algorithms to risk and reliability analysis.</p>
+              </section>
+              <section class="personnel-profile-section">
+                <h4>Academic Achievements</h4>
+                <p>He has authored more than 700 international journal papers and 10 books, and has been ranked among the Stanford Top 2% World Scientists and Clarivate Highly Cited Researchers. His honors include the Humboldt Research Award, IEEE Fellow, and the Lifetime Achievement Award from the International Society for Reliability and Safety.</p>
+              </section>
+            </div>
+          </article>
           <article class="personnel-card" id="person-yang-hu">
             <img class="personnel-photo" src="image/Yang Hu.png" alt="Yang Hu" loading="lazy">
             <div>
