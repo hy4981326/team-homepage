@@ -4311,7 +4311,7 @@ body.is-search-open {
 [data-personnel-overview-member="person-enrico-zio"] img {
   padding: 0;
   object-fit: cover;
-  object-position: center 8%;
+  object-position: center center;
 }
 
 .personnel-overview-card h3 {
