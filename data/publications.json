@@ -1,7 +1,29 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18",
+  "updatedAt": "2026-09-28",
   "entries": [
+    {
+      "id": "journal-2026-romero-mission-programmable-onboard-decision-layer",
+      "category": "journals",
+      "year": 2026,
+      "title": {
+        "zh": "A Mission-Programmable Onboard Decision Layer for Earth-Observation CubeSats: Scene Triage and Vegetation-Loss Alerting from 68-Byte Classifier Weights",
+        "en": "A Mission-Programmable Onboard Decision Layer for Earth-Observation CubeSats: Scene Triage and Vegetation-Loss Alerting from 68-Byte Classifier Weights"
+      },
+      "authors": {
+        "zh": "Romero, P. M. P. & Hu, Y*.",
+        "en": "Romero, P. M. P. & Hu, Y*."
+      },
+      "venue": {
+        "zh": "Remote Sensing",
+        "en": "Remote Sensing"
+      },
+      "details": {
+        "zh": "18(19), 3297 (2026).",
+        "en": "18(19), 3297 (2026)."
+      },
+      "url": "https://www.mdpi.com/2072-4292/18/19/3297"
+    },
     {
       "id": "jiang-journal-2026-clari-constrained-reflective-llm-inference-for-few-shot-so",
       "category": "journals",
