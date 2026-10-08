@@ -960,19 +960,12 @@
           conferences: 'Conferences & Other',
           books: 'Books',
           patents: 'Patents & Software',
-          domestic: 'Mainland Universities',
-          international: 'Overseas Universities',
-          enterprise: 'Industry Collaboration',
+          universities: 'University Partners',
+          enterprises: 'Industry Partners',
           cooperationIntro: 'The laboratory advances open collaboration in response to national innovation priorities and practical industry needs, with a focus on joint research, talent development, and shared research platforms. Through sustained engagement with universities, research institutions, and enterprises in China and abroad, it connects academic inquiry with engineering practice and supports research, team development, and service to industry.',
-          cooperationStatus: 'In university collaboration, the laboratory maintains close academic ties with Zhejiang University, City University of Hong Kong, Politecnico di Milano, and Université Paris-Saclay, supporting academic exchange, joint research, and talent development. In industry and research-institute collaboration, it works with AVIC, Aero Engine Corporation of China, China Aerospace Science and Technology Corporation, COMAC, the China Electronic Product Reliability and Environmental Testing Research Institute, Huawei 2012 Laboratories, Zhejiang Loong Airlines Maintenance Engineering Co., Ltd., and Suparna Airlines on research projects and shared platforms. These partnerships support fundamental research and key technologies for intelligent operations and maintenance, digital-twin modeling, resilience, and reliability in advanced aerospace, naval, and intelligent-manufacturing systems. The laboratory is equipped with high-performance computing, industrial IoT data acquisition, PHM simulation and validation, digital-twin modeling, and complex-network analysis platforms. Its long-term partnership with Zhejiang Loong Airlines provides more than ten years of flight-parameter data covering over 150,000 A320 flights and more than 2,000 authentic maintenance work orders. It also shares resources with the Sino-French Dassault Systèmes Center of Excellence in Education, the Reliability Digital Twin Laboratory, and the Fleet Operations and Maintenance Simulation Laboratory, enabling coordinated design, modeling, simulation, and validation.',
+          cooperationStatus: 'In university collaboration, the laboratory maintains close academic ties with Zhejiang University, The Hong Kong Polytechnic University, Politecnico di Milano, and Université Paris-Saclay, supporting academic exchange, joint research, and talent development. In industry and research-institute collaboration, it works with COMAC, the China Electronic Product Reliability and Environmental Testing Research Institute, Huawei 2012 Laboratories, Zhejiang Loong Airlines Maintenance Engineering Co., Ltd., and Suparna Airlines on research projects and shared platforms. These partnerships support fundamental research and key technologies for intelligent operations and maintenance, digital-twin modeling, resilience, and reliability in advanced aerospace, naval, and intelligent-manufacturing systems. The laboratory is equipped with high-performance computing, industrial IoT data acquisition, PHM simulation and validation, digital-twin modeling, and complex-network analysis platforms. Its long-term partnership with Zhejiang Loong Airlines provides more than ten years of flight-parameter data covering over 150,000 A320 flights and more than 2,000 authentic maintenance work orders. It also shares resources with the Sino-French Dassault Systèmes Center of Excellence in Education, the Reliability Digital Twin Laboratory, and the Fleet Operations and Maintenance Simulation Laboratory, enabling coordinated design, modeling, simulation, and validation.',
           cooperationDetail: 'Further information on collaboration and related outcomes will be added.',
-          cooperationBack: '← Back to partners',
-          cooperationCategoryBack: '← Back to collaboration overview',
-          categoryDescriptions: {
-            domestic: 'Academic exchange and research collaboration with universities in mainland China.',
-            international: 'International academic exchange, joint research, and talent development.',
-            enterprise: 'Joint research projects, platform development, and engineering applications with industry partners.'
-          }
+          cooperationBack: '← Back to partners'
         }
       : {
           home: '首页',
@@ -991,19 +984,12 @@
           conferences: '会议及其他',
           books: '专著',
           patents: '专利与软著',
-          domestic: '境内高校',
-          international: '境外高校',
-          enterprise: '企业合作',
+          universities: '高校',
+          enterprises: '合作企业',
           cooperationIntro: '实验室面向国家创新体系建设与行业实际需求，持续推进以科研协同、人才培养和平台共建为重点的开放合作。通过加强与国内外高校、科研机构及企业的交流，促进学术研究与工程应用相衔接，并以产学研协作为科研创新、团队建设和行业服务提供支撑。',
-          cooperationStatus: '在高校合作方面，实验室与浙江大学、香港城市大学、意大利米兰理工大学、巴黎萨克雷大学等国内外高校保持密切学术联系，持续开展学术交流、联合研究与人才培养。在企业及科研机构合作方面，实验室与航空工业集团、中国航发、中国航天科技集团、中国商飞有限公司、工信部电子信息五所、华为2012实验室、浙江长龙航空维修工程有限公司、金鹏航空等单位共同开展科研项目和平台建设，围绕新一代航空、航天、舰船、智能制造等高端工程系统的智能化运维、数字孪生建模和韧性可靠性分析，推进基础理论研究与关键技术攻关。',
+          cooperationStatus: '在高校合作方面，实验室与浙江大学、香港理工大学、意大利米兰理工大学、巴黎萨克雷大学保持密切学术联系，持续开展学术交流、联合研究与人才培养。在企业及科研机构合作方面，实验室与中国商飞有限公司、工信部电子信息五所、华为2012实验室、浙江长龙航空维修工程有限公司、金鹏航空等单位共同开展科研项目和平台建设，围绕新一代航空、航天、舰船、智能制造等高端工程系统的智能化运维、数字孪生建模和韧性可靠性分析，推进基础理论研究与关键技术攻关。',
           cooperationDetail: '合作内容与相关成果待补充。',
-          cooperationBack: '← 返回合作单位',
-          cooperationCategoryBack: '← 返回科研合作首页',
-          categoryDescriptions: {
-            domestic: '与境内高校开展学术交流与科研协同。',
-            international: '开展国际学术交流、联合研究与人才培养。',
-            enterprise: '与企业开展科研项目、平台共建与工程应用合作。'
-          }
+          cooperationBack: '← 返回合作单位'
         };
     const sections = [
       ['directions', labels.directions],
@@ -1089,38 +1075,33 @@
       ${availableYearRanges.map(projectGroupHtml).join('')}
     `;
     const cooperationGroups = {
-      domestic: isEnglish
+      universities: isEnglish
         ? [
-            { name: 'Zhejiang University', logo: 'image/zju.png' }
-          ]
-        : [
-            { name: '浙江大学', logo: 'image/zju.png' }
-          ],
-      international: isEnglish
-        ? [
+            { name: 'Zhejiang University', logo: 'image/zju.png' },
             { name: 'The Hong Kong Polytechnic University', logo: 'image/polyu-mark.jpg' },
             { name: 'Politecnico di Milano', logo: 'image/milano.jpg' },
             { name: 'Université Paris-Saclay', logo: 'image/saclay.png' }
           ]
         : [
+            { name: '浙江大学', logo: 'image/zju.png' },
             { name: '香港理工大学', logo: 'image/polyu-mark.jpg' },
             { name: '意大利米兰理工大学', logo: 'image/milano.jpg' },
             { name: '巴黎萨克雷大学', logo: 'image/saclay.png' }
           ],
-      enterprise: isEnglish
+      enterprises: isEnglish
         ? [
             { name: 'Commercial Aircraft Corporation of China (COMAC)', logo: 'assets/images/partners/comac-logo.jpg' },
             { name: 'China Electronic Product Reliability and Environmental Testing Research Institute', logo: 'assets/images/partners/ceprei-logo.jpg' },
             { name: 'Huawei 2012 Laboratories', logo: 'assets/images/partners/huawei-logo-full.svg' },
             { name: 'Zhejiang Loong Airlines Maintenance Engineering Co., Ltd.', logo: 'assets/images/partners/loongair-logo-cropped.jpg' },
-            { name: 'Suparna Airlines', logo: 'assets/images/partners/suparna-logo.png' }
+            { name: 'Suparna Airlines', logo: 'assets/images/partners/suparna-logo-clean.png' }
           ]
         : [
             { name: '中国商飞有限公司', logo: 'assets/images/partners/comac-logo.jpg' },
             { name: '工信部电子信息五所', logo: 'assets/images/partners/ceprei-logo.jpg' },
             { name: '华为2012实验室', logo: 'assets/images/partners/huawei-logo-full.svg' },
             { name: '浙江长龙航空维修工程有限公司', logo: 'assets/images/partners/loongair-logo-cropped.jpg' },
-            { name: '金鹏航空', logo: 'assets/images/partners/suparna-logo.png' }
+            { name: '金鹏航空', logo: 'assets/images/partners/suparna-logo-clean.png' }
           ]
     };
     const app = document.createElement('div');
@@ -1150,17 +1131,6 @@
                     ${outputCategories.map(([category, categoryLabel]) => `
                       <button type="button" data-research-output-category="${category}">${categoryLabel}</button>
                     `).join('')}
-                  </div>
-                </div>
-              ` : key === 'cooperation' ? `
-                <div class="personnel-side-group" data-research-cooperation-group>
-                  <button class="personnel-side-button" type="button" data-research-page-view="cooperation">
-                    <span>${label}</span><span class="personnel-side-symbol" aria-hidden="true"></span>
-                  </button>
-                  <div class="personnel-side-members">
-                    <button type="button" data-research-cooperation-category="domestic">${labels.domestic}</button>
-                    <button type="button" data-research-cooperation-category="international">${labels.international}</button>
-                    <button type="button" data-research-cooperation-category="enterprise">${labels.enterprise}</button>
                   </div>
                 </div>
               ` : `
@@ -1270,32 +1240,25 @@
       );
     }
     cooperationPanel.innerHTML = `
-      <div class="cooperation-list-view" data-cooperation-list>
+      <div class="cooperation-list-view">
         <p class="cooperation-intro">${labels.cooperationIntro}</p>
         <p class="cooperation-intro">${labels.cooperationStatus}</p>
-        <div class="cooperation-category-grid">
-          ${['domestic', 'international', 'enterprise'].map((category) => `
-            <button class="cooperation-category-card" type="button" data-cooperation-category="${category}">
-              <span class="cooperation-category-image" aria-hidden="true">
-                <span class="cooperation-category-logos cooperation-category-logos--${category}">
-                  ${cooperationGroups[category].map(({ name, logo }) => `
-                    <img src="${logo}" alt="" title="${name}">
-                  `).join('')}
-                </span>
-              </span>
-              <span class="cooperation-category-copy">
-                <strong>${labels[category]}</strong>
-                <small>${labels.categoryDescriptions[category]}</small>
-              </span>
-            </button>
-          `).join('')}
-        </div>
+        ${['universities', 'enterprises'].map((category) => `
+          <section class="cooperation-partner-group" aria-labelledby="cooperation-${category}-title">
+            <h2 id="cooperation-${category}-title">${labels[category]}</h2>
+            <ul class="cooperation-card-grid cooperation-card-grid--${category}">
+              ${cooperationGroups[category].map(({ name, logo }) => `
+                <li class="cooperation-partner-card">
+                  <span class="cooperation-partner-card-logo">
+                    <img src="${logo}" alt="${name}" loading="lazy">
+                  </span>
+                  <strong>${name}</strong>
+                </li>
+              `).join('')}
+            </ul>
+          </section>
+        `).join('')}
       </div>
-      <section class="cooperation-partner-view" data-cooperation-partners hidden>
-        <button class="cooperation-back" type="button" data-cooperation-category-back>${labels.cooperationCategoryBack}</button>
-        <h2 data-cooperation-category-title></h2>
-        <ul class="cooperation-partner-list" data-cooperation-grid></ul>
-      </section>
     `;
     researchPage.replaceChildren(app);
 
@@ -1336,60 +1299,15 @@
         outputCategories.find(([category]) => category === currentOutputCategory)?.[1] || labels.journals
       );
     };
-    let currentCooperationCategory = 'domestic';
     const showCooperationOverview = () => {
-      const list = cooperationPanel.querySelector('[data-cooperation-list]');
-      const partners = cooperationPanel.querySelector('[data-cooperation-partners]');
-      if (list) list.hidden = false;
-      if (partners) partners.hidden = true;
-      app.querySelectorAll('[data-research-cooperation-category]').forEach((button) => {
-        button.classList.remove('is-active');
-      });
       setResearchDetailBreadcrumb(labels.cooperationOverview);
     };
-    const showCooperationCategory = (categoryName = 'domestic') => {
-      currentCooperationCategory = cooperationGroups[categoryName] ? categoryName : 'domestic';
-      const list = cooperationPanel.querySelector('[data-cooperation-list]');
-      const partners = cooperationPanel.querySelector('[data-cooperation-partners]');
-      const grid = cooperationPanel.querySelector('[data-cooperation-grid]');
-      const title = cooperationPanel.querySelector('[data-cooperation-category-title]');
-      if (list) list.hidden = true;
-      if (partners) partners.hidden = false;
-      if (title) title.textContent = labels[currentCooperationCategory];
-      app.querySelectorAll('[data-research-cooperation-category]').forEach((button) => {
-        button.classList.toggle(
-          'is-active',
-          button.dataset.researchCooperationCategory === currentCooperationCategory
-        );
-      });
-      setResearchDetailBreadcrumb(labels[currentCooperationCategory]);
-      if (grid) {
-        grid.innerHTML = cooperationGroups[currentCooperationCategory].map(({ name, logo, mark }) => `
-          <li class="cooperation-partner-item">
-            <span class="cooperation-partner-logo" aria-hidden="true">
-              ${logo
-                ? `<img src="${logo}" alt="" loading="lazy">`
-                : `<span class="cooperation-partner-mark">${mark}</span>`}
-            </span>
-            <strong>${name}</strong>
-          </li>
-        `).join('');
-      }
-    };
-    cooperationPanel.querySelectorAll('[data-cooperation-category]').forEach((button) => {
-      button.addEventListener('click', () => showCooperationCategory(button.dataset.cooperationCategory));
-    });
-    cooperationPanel.querySelector('[data-cooperation-category-back]')?.addEventListener('click', showCooperationOverview);
     showResearchPageView = (viewName = 'directions') => {
       const targetView = sections.some(([key]) => key === viewName) ? viewName : 'directions';
       const currentLabel = sections.find(([key]) => key === targetView)?.[1] || labels.directions;
       app.querySelectorAll('[data-research-page-view]').forEach((button) => {
         button.classList.toggle('is-active', button.dataset.researchPageView === targetView);
       });
-      const cooperationGroup = app.querySelector('[data-research-cooperation-group]');
-      cooperationGroup?.classList.toggle('is-expanded', targetView === 'cooperation');
-      cooperationGroup?.querySelector(':scope > .personnel-side-button')
-        ?.setAttribute('aria-expanded', String(targetView === 'cooperation'));
       const outputGroup = app.querySelector('[data-research-output-group]');
       outputGroup?.classList.toggle('is-expanded', targetView === 'outputs');
       outputGroup?.querySelector(':scope > .personnel-side-button')
@@ -1415,19 +1333,13 @@
     };
     app.querySelectorAll('[data-research-page-view]').forEach((button) => {
       button.addEventListener('click', () => {
-        const group = button.closest('[data-research-direction-group], [data-research-cooperation-group], [data-research-output-group]');
+        const group = button.closest('[data-research-direction-group], [data-research-output-group]');
         if (group?.classList.contains('is-expanded')) {
           group.classList.remove('is-expanded');
           button.setAttribute('aria-expanded', 'false');
           return;
         }
         showPage(routeNames[button.dataset.researchPageView]);
-      });
-    });
-    app.querySelectorAll('[data-research-cooperation-category]').forEach((button) => {
-      button.addEventListener('click', () => {
-        showPage('research-cooperation');
-        showCooperationCategory(button.dataset.researchCooperationCategory);
       });
     });
     app.querySelectorAll('[data-research-output-category]').forEach((button) => {

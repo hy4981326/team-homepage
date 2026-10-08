@@ -5607,6 +5607,82 @@ body.is-search-open {
   gap: 18px;
 }
 
+.cooperation-partner-group {
+  margin-top: 38px;
+}
+
+.cooperation-partner-group > h2 {
+  margin: 0 0 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #d7e1e7;
+  color: #29475a;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.cooperation-card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cooperation-card-grid--universities {
+  grid-template-columns: 1fr;
+}
+
+.cooperation-partner-card {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 20px;
+  min-width: 0;
+  min-height: 96px;
+  padding: 8px 0;
+  align-items: center;
+}
+
+.cooperation-partner-card-logo {
+  display: grid;
+  width: 96px;
+  height: 96px;
+  place-items: center;
+}
+
+.cooperation-partner-card-logo img {
+  display: block;
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.cooperation-card-grid--enterprises .cooperation-partner-card-logo img {
+  width: 72px;
+  height: 72px;
+}
+
+.cooperation-card-grid--universities .cooperation-partner-card:first-child img {
+  transform: scale(1.65);
+}
+
+.cooperation-card-grid--universities .cooperation-partner-card:nth-child(2) img {
+  transform: translateX(-4px) scale(1.25);
+}
+
+.cooperation-card-grid--enterprises .cooperation-partner-card:nth-child(5) img {
+  transform: scale(1.35);
+}
+
+.cooperation-partner-card > strong {
+  display: block;
+  padding: 0;
+  color: #29475a;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
 .cooperation-category-card {
   padding: 0;
   overflow: hidden;
@@ -6702,6 +6778,39 @@ body.is-search-open {
 
   .cooperation-category-grid {
     grid-template-columns: 1fr;
+  }
+
+  .cooperation-card-grid,
+  .cooperation-card-grid--universities {
+    grid-template-columns: 1fr;
+  }
+
+  .cooperation-partner-card {
+    grid-template-columns: 82px minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .cooperation-partner-card-logo {
+    width: 82px;
+    height: 82px;
+  }
+
+  .cooperation-partner-card-logo img,
+  .cooperation-card-grid--enterprises .cooperation-partner-card-logo img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .cooperation-card-grid--universities .cooperation-partner-card:first-child img {
+    transform: scale(1.5);
+  }
+
+  .cooperation-card-grid--universities .cooperation-partner-card:nth-child(2) img {
+    transform: translateX(-3px) scale(1.18);
+  }
+
+  .cooperation-card-grid--enterprises .cooperation-partner-card:nth-child(5) img {
+    transform: scale(1.28);
   }
 
   .cooperation-partner-item {
